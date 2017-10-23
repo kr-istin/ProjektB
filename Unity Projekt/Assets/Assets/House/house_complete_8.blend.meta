@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7
+timeCreated: 1508790237
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bath_floor
+    100002: bath_wall
+    100004: bath_window
+    100006: ceiling
+    100008: corridor_floor
+    100010: corridor_wall
+    100012: corridor_window1
+    100014: corridor_window2
+    100016: diningroom_floor
+    100018: diningroom_wall
+    100020: diningroom_window1
+    100022: diningroom_window2
+    100024: door_frames
+    100026: //RootNode
+    100028: kitchen_floor
+    100030: kitchen_wall
+    100032: kitchen_window
+    100034: livingroom_floor
+    100036: livingroom_wall
+    100038: livingroom_window1
+    100040: livingroom_window2
+    100042: outer_wall
+    100044: stairs
+    100046: window_frames
+    400000: bath_floor
+    400002: bath_wall
+    400004: bath_window
+    400006: ceiling
+    400008: corridor_floor
+    400010: corridor_wall
+    400012: corridor_window1
+    400014: corridor_window2
+    400016: diningroom_floor
+    400018: diningroom_wall
+    400020: diningroom_window1
+    400022: diningroom_window2
+    400024: door_frames
+    400026: //RootNode
+    400028: kitchen_floor
+    400030: kitchen_wall
+    400032: kitchen_window
+    400034: livingroom_floor
+    400036: livingroom_wall
+    400038: livingroom_window1
+    400040: livingroom_window2
+    400042: outer_wall
+    400044: stairs
+    400046: window_frames
+    2300000: bath_floor
+    2300002: bath_wall
+    2300004: bath_window
+    2300006: ceiling
+    2300008: corridor_floor
+    2300010: corridor_wall
+    2300012: corridor_window1
+    2300014: corridor_window2
+    2300016: diningroom_floor
+    2300018: diningroom_wall
+    2300020: diningroom_window1
+    2300022: diningroom_window2
+    2300024: door_frames
+    2300026: kitchen_floor
+    2300028: kitchen_wall
+    2300030: kitchen_window
+    2300032: livingroom_floor
+    2300034: livingroom_wall
+    2300036: livingroom_window1
+    2300038: livingroom_window2
+    2300040: outer_wall
+    2300042: stairs
+    2300044: window_frames
+    3300000: bath_floor
+    3300002: bath_wall
+    3300004: bath_window
+    3300006: ceiling
+    3300008: corridor_floor
+    3300010: corridor_wall
+    3300012: corridor_window1
+    3300014: corridor_window2
+    3300016: diningroom_floor
+    3300018: diningroom_wall
+    3300020: diningroom_window1
+    3300022: diningroom_window2
+    3300024: door_frames
+    3300026: kitchen_floor
+    3300028: kitchen_wall
+    3300030: kitchen_window
+    3300032: livingroom_floor
+    3300034: livingroom_wall
+    3300036: livingroom_window1
+    3300038: livingroom_window2
+    3300040: outer_wall
+    3300042: stairs
+    3300044: window_frames
+    4300000: stairs
+    4300002: window_frames
+    4300004: door_frames
+    4300006: corridor_window2
+    4300008: corridor_window1
+    4300010: diningroom_window1
+    4300012: livingroom_window1
+    4300014: livingroom_window2
+    4300016: diningroom_window2
+    4300018: kitchen_window
+    4300020: bath_window
+    4300022: livingroom_wall
+    4300024: diningroom_wall
+    4300026: kitchen_wall
+    4300028: corridor_wall
+    4300030: bath_wall
+    4300032: diningroom_floor
+    4300034: livingroom_floor
+    4300036: kitchen_floor
+    4300038: corridor_floor
+    4300040: bath_floor
+    4300042: ceiling
+    4300044: outer_wall
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
