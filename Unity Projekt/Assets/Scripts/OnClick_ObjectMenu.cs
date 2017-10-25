@@ -6,7 +6,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class OnClick_ObjectMenu : MonoBehaviour {
 	
-	public Transform canvas;
+	public Canvas canvas;
 	public Transform Player;
 	
 	public Image image;
@@ -25,7 +25,7 @@ public class OnClick_ObjectMenu : MonoBehaviour {
 	{
 		//x = 0;
 		Cursor.visible = false;
-		Canvas canvas = GetComponent<Canvas>();
+		//Canvas canvas = GetComponent<Canvas>();
 		//image.sprite = canvas.GetComponent<Sprite>();	
 		/*if (imageList[0] != null){
 			next.gameObject.SetActive(true);

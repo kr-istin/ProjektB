@@ -2433,7 +2433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6474db9623ba5dd498b12518d20913df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 75608625}
+  canvas: {fileID: 75608624}
   Player: {fileID: 2088753997}
   image: {fileID: 1396038328}
   newCoverImage: {fileID: 21300000, guid: dd06d19d03cec824491e399929d00e39, type: 3}
@@ -2486,7 +2486,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1951071601}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0868cfd1c3da55246b725e20696a19ec, type: 3}
   m_Name: 
