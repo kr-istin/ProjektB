@@ -26,7 +26,7 @@ public class OnClick_ObjectMenu : MonoBehaviour {
 		//x = 0;
 		Cursor.visible = false;
 		Canvas canvas = GetComponent<Canvas>();
-		image.sprite = canvas.GetComponent<Sprite>();	
+		//image.sprite = canvas.GetComponent<Sprite>();	
 		/*if (imageList[0] != null){
 			next.gameObject.SetActive(true);
 			}*/
@@ -44,6 +44,8 @@ public class OnClick_ObjectMenu : MonoBehaviour {
     {
         if (canvas.gameObject.activeInHierarchy == false)
         {
+			
+			image.sprite = newCoverImage;
 			Cursor.lockState = CursorLockMode.None; 
             Cursor.visible = true;
 			canvas.gameObject.SetActive(true);
