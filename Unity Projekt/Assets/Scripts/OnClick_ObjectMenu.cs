@@ -26,7 +26,7 @@ public class OnClick_ObjectMenu : MonoBehaviour {
 		//x = 0;
 		Cursor.visible = false;
 		Canvas canvas = GetComponent<Canvas>();
-		//image = canvas.GetComponent<Sprite>();	
+		image.sprite = canvas.GetComponent<Sprite>();	
 		/*if (imageList[0] != null){
 			next.gameObject.SetActive(true);
 			}*/

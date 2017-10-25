@@ -715,7 +715,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 377411609}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1951071603}
+        m_MethodName: PauseEnde
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &377411609
@@ -1516,7 +1527,7 @@ GameObject:
   - component: {fileID: 1396038329}
   - component: {fileID: 1396038328}
   m_Layer: 5
-  m_Name: ChangedImage
+  m_Name: ChangeImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1559,7 +1570,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 6c1dc38eadb2ced4cae9b465b299c47d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2402,7 +2413,7 @@ MonoBehaviour:
   canvas: {fileID: 75608625}
   Player: {fileID: 2088753997}
   image: {fileID: 1396038328}
-  newCoverImage: {fileID: 0}
+  newCoverImage: {fileID: 21300000, guid: dd06d19d03cec824491e399929d00e39, type: 3}
 --- !u!23 &1951071604
 MeshRenderer:
   m_ObjectHideFlags: 0
