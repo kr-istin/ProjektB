@@ -26,14 +26,14 @@ namespace cakeslice
 
         void OnTriggerEnter(Collider other)
         {
-            Debug.Log("enter");
+            //Debug.Log("enter");
             objectInside.GetComponent<Outline>().enabled = true;
 
         }
 
         void OnTriggerExit(Collider other)
         {
-            Debug.Log("exit");
+            //Debug.Log("exit");
             objectInside.GetComponent<Outline>().enabled = false;
         }
 
