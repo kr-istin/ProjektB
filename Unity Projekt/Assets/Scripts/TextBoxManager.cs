@@ -21,6 +21,8 @@ public class TextBoxManager : MonoBehaviour {
 	public AudioClip IvyErzaehlt;
 	AudioSource audioSource;
 
+	private float startTime;
+
 	//public int extrazahl = 1;
 
 	//public Collider col;
@@ -32,7 +34,7 @@ public class TextBoxManager : MonoBehaviour {
 			//textLines = (textFile.text.Split('\n'));   --> nur um eine Zeile anzuzeigen
 			text = textFile.text;						// der ganze Text wird angezeigt
 			audioSource = GetComponent<AudioSource>();
-			StartCoroutine(timeCounter());
+
 		}
 
 		/*if (endAtLine == 0)
@@ -107,30 +109,22 @@ public class TextBoxManager : MonoBehaviour {
 		
 	public void OnTriggerEnter(Collider col)
 	{
+		StartCoroutine(timeCounter());
 		isActive = true;
-		textBox.SetActive(true);
-		audioSource.PlayOneShot(IvyErzaehlt, 0.7f);
-	
-
+		textBox.SetActive (true);
+		audioSource.PlayOneShot (IvyErzaehlt, 0.7f);
 	}
+
 
 	IEnumerator timeCounter() 
 	{
-		yield return new WaitForSeconds(18);
+		yield return new WaitForSeconds(8);
 		textBox.SetActive(false);
 		Destroy (gameObject);
 		yield break;
 	}
+	
 
-	/* Nachschauen was das ist
-	 
-	IEnumerator MyMethod() 
-	{
-		yield return new WaitForSeconds(4);
-		textBox.SetActive(false);
-		yield break;
-	}
-	*/
 
 	/*
 	public void Weiter()
@@ -173,30 +167,8 @@ public class TextBoxManager : MonoBehaviour {
 		Weiter();
 
 
-	}
-
-	public void doExitGame()
-	{
-		Application.Quit();
-	}
+	}*/
 
 
-	//Sound austellen können
-
-	public void muteSound()
-	{
-
-
-		if (mute) {
-			AudioListener.pause = true;
-			mute = false;
-		} 
-		else {
-			AudioListener.pause = false;
-			mute = true;
-		}
-	}
-
-	*/
 
 }
