@@ -37,7 +37,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.46169478, g: 0.512416, b: 0.5899326, a: 1}
+=======
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+>>>>>>> fd1e59b88954adbc42dac211b004f73e1fb3fdb8
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1512,6 +1516,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 789631508}
   m_Mesh: {fileID: 4300006, guid: 72616aa566640fa4498901aa2e09543e, type: 3}
+<<<<<<< HEAD
 --- !u!1 &828491465 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 110168, guid: 094b1ce88c26fa145ae8b34a1712b67e, type: 2}
@@ -1551,6 +1556,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6c1dc38eadb2ced4cae9b465b299c47d, type: 3}
   - {fileID: 21300000, guid: e946659691920314d978c0133edae22e, type: 3}
 --- !u!84 &876001647
+=======
+--- !u!84 &802712809
+>>>>>>> fd1e59b88954adbc42dac211b004f73e1fb3fdb8
 RenderTexture:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1559,8 +1567,13 @@ RenderTexture:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
+<<<<<<< HEAD
   m_Width: 683
   m_Height: 578
+=======
+  m_Width: 1117
+  m_Height: 458
+>>>>>>> fd1e59b88954adbc42dac211b004f73e1fb3fdb8
   m_AntiAliasing: 1
   m_DepthFormat: 1
   m_ColorFormat: 0
@@ -2677,8 +2690,13 @@ MonoBehaviour:
   sourceCamera: {fileID: 1383702843}
   outlineCamera: {fileID: 1860620232}
   outlineShaderMaterial: {fileID: 0}
+<<<<<<< HEAD
   renderTexture: {fileID: 1261414155}
   extraRenderTexture: {fileID: 876001647}
+=======
+  renderTexture: {fileID: 487034782}
+  extraRenderTexture: {fileID: 802712809}
+>>>>>>> fd1e59b88954adbc42dac211b004f73e1fb3fdb8
 --- !u!1 &1396038326
 GameObject:
   m_ObjectHideFlags: 0
@@ -3330,11 +3348,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.54
+      value: -0.56
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3380,6 +3398,22 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 28d5e1ff2cc051b4cb6ef03618ae63d2, type: 2}
+    - target: {fileID: 2300006, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 26748ffa521e28543803e50fe04101ba, type: 2}
+    - target: {fileID: 2300024, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f98699e846c46442b6b747bd38996cd, type: 2}
+    - target: {fileID: 2300040, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d66899957497c7343bed89560dacc034, type: 2}
+    - target: {fileID: 2300044, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f241ae50a6ed184c8c964444316e2be, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
   m_IsPrefabParent: 0
@@ -3953,7 +3987,11 @@ Camera:
     serializedVersion: 2
     m_Bits: 0
   m_RenderingPath: 1
+<<<<<<< HEAD
   m_TargetTexture: {fileID: 1261414155}
+=======
+  m_TargetTexture: {fileID: 487034782}
+>>>>>>> fd1e59b88954adbc42dac211b004f73e1fb3fdb8
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
