@@ -17,6 +17,7 @@ public class TextBoxManager : MonoBehaviour {
 	public int endAtLine;
 
 	public bool isActive;
+	bool hasBeenTriggered = false;
 
 	public AudioClip IvyErzaehlt;
 	AudioSource audioSource;
@@ -109,6 +110,9 @@ public class TextBoxManager : MonoBehaviour {
 		
 	public void OnTriggerEnter(Collider col)
 	{
+		if (hasBeenTriggered)
+			return;
+		hasBeenTriggered = true;
 		StartCoroutine(timeCounter());
 		isActive = true;
 		textBox.SetActive (true);
