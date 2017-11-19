@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 021a3b7a815fd2049a9797898c7f6c3c
+timeCreated: 1511096073
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bicchiere1
+    100002: bottiglia
+    100004: bottiglia2
+    100006: Empty
+    100008: lampada1
+    100010: lampadario
+    100012: libri1
+    100014: libri2
+    100016: //RootNode
+    100018: penne
+    100020: plafoniera
+    100022: posacenere1
+    100024: posacenere2
+    100026: radio
+    100028: scatola
+    100030: scatola2
+    100032: telefono
+    100034: vaso1
+    100036: vaso2
+    100038: vaso3
+    400000: bicchiere1
+    400002: bottiglia
+    400004: bottiglia2
+    400006: Empty
+    400008: lampada1
+    400010: lampadario
+    400012: libri1
+    400014: libri2
+    400016: //RootNode
+    400018: penne
+    400020: plafoniera
+    400022: posacenere1
+    400024: posacenere2
+    400026: radio
+    400028: scatola
+    400030: scatola2
+    400032: telefono
+    400034: vaso1
+    400036: vaso2
+    400038: vaso3
+    2300000: bicchiere1
+    2300002: bottiglia
+    2300004: bottiglia2
+    2300006: lampada1
+    2300008: lampadario
+    2300010: libri1
+    2300012: libri2
+    2300014: penne
+    2300016: plafoniera
+    2300018: posacenere1
+    2300020: posacenere2
+    2300022: radio
+    2300024: scatola
+    2300026: scatola2
+    2300028: telefono
+    2300030: vaso1
+    2300032: vaso2
+    2300034: vaso3
+    3300000: bicchiere1
+    3300002: bottiglia
+    3300004: bottiglia2
+    3300006: lampada1
+    3300008: lampadario
+    3300010: libri1
+    3300012: libri2
+    3300014: penne
+    3300016: plafoniera
+    3300018: posacenere1
+    3300020: posacenere2
+    3300022: radio
+    3300024: scatola
+    3300026: scatola2
+    3300028: telefono
+    3300030: vaso1
+    3300032: vaso2
+    3300034: vaso3
+    4300000: bicchiere1
+    4300002: bottiglia
+    4300004: bottiglia2
+    4300006: lampada1
+    4300008: lampadario
+    4300010: libri1
+    4300012: libri2
+    4300014: penne
+    4300016: plafoniera
+    4300018: posacenere1
+    4300020: posacenere2
+    4300022: radio
+    4300024: scatola
+    4300026: scatola2
+    4300028: telefono
+    4300030: vaso1
+    4300032: vaso2
+    4300034: vaso3
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
