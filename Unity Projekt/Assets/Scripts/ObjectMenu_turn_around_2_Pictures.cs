@@ -40,33 +40,6 @@ public class ObjectMenu_turn_around_2_Pictures : MonoBehaviour {
 	}   
 
 	
-		/*
-
-	public void Pause()
-    {
-        if (canvas.gameObject.activeInHierarchy == false)
-        {
-			
-			//image.sprite = newCoverImage;
-			Cursor.lockState = CursorLockMode.None; 
-            Cursor.visible = true;
-			canvas.gameObject.SetActive(true);
-            Time.timeScale = 0;
-            Player.GetComponent<FirstPersonController>().enabled = false;
-			
-        }
-    }
-	public void PauseEnde()
-    {
-        if (canvas.gameObject.activeInHierarchy == true)
-        {
-			Cursor.visible = false;
-            canvas.gameObject.SetActive(false);
-            Time.timeScale = 1;
-            Player.GetComponent<FirstPersonController>().enabled = true;
-			umdrehen.gameObject.SetActive(false);
-        }
-    }*/
 	public void turnAround(){
 		if(x==true){
 			image.sprite = newCoverImage;
