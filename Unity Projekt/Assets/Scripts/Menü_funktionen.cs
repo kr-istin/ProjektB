@@ -1,0 +1,93 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
+
+public class Menü_funktionen : MonoBehaviour {
+
+	
+	public Canvas canvas;
+	public Transform Player;
+	
+	public Button next;
+	public Button zurück;
+	public Button umdrehen;
+	public Sprite rückseite;
+	public Image image;
+	
+	public Sprite newCoverImage;
+	public Sprite[] imageList;
+	
+	private int x;
+	public bool y;
+	
+	void Update () {
+	    if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Pause();
+        }
+	}
+    public void Pause()
+    {
+		Cursor.lockState = CursorLockMode.None; 
+        Cursor.visible = true;
+        canvas.gameObject.SetActive(true);
+        Time.timeScale = 0;
+		Player.GetComponent<FirstPersonController>().enabled = false;
+        
+    }
+	
+	  public void Quit()
+    {
+	#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+	#else
+        Application.Quit ();
+	#endif
+    }
+	
+	public void Weiter()
+	{
+		Cursor.lockState = CursorLockMode.Locked; 
+        Cursor.visible = false;
+        canvas.gameObject.SetActive(false);
+        Time.timeScale = 1;
+        Player.GetComponent<FirstPersonController>().enabled = true;
+		zurück.gameObject.SetActive(false);
+		next.gameObject.SetActive(false);
+		umdrehen.gameObject.SetActive(false);
+		rückseite.gameObject.SetActive(false);
+	}
+	public void nextPic()
+	{
+		x++;
+		zurück.gameObject.SetActive(true);
+		if(x==imageList.Length-1){
+			next.gameObject.SetActive(false);
+		}
+		image.sprite = imageList[x];
+		
+	}
+	
+	public void beforePic(){
+		x--;
+		if(x==-1){
+			image.sprite = newCoverImage;
+			zurück.gameObject.SetActive(false);
+			next.gameObject.SetActive(true);
+		}
+		image.sprite = imageList[x];
+	}
+	
+	public void turnAround(){
+		if(y==true){
+			image.sprite = newCoverImage;
+		}
+		if(y==false){
+			image.sprite = rückseite;
+		}
+		y = !y;
+	}
+	
+}

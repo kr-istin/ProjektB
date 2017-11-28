@@ -1,23 +1,16 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.SceneManagement;
 
 public class Hauptmenü_funktionen : MonoBehaviour {
-
 	
-	public Canvas canvas;
-	public Transform Player;
-	
-	void Start () 
-	{
-		
-	}
-	public void LoadByIndex(int sceneIndex)
+	public void PlayGame()
     {
-        //SceneManager.LoadScene (sceneIndex);
+        SceneManager.LoadScene(1);
     }
+	public void EndGame(){
+		Application.Quit();
+	}
 	
 	
 }

@@ -12,35 +12,24 @@ public class ObjectMenu_turn_around_2_Pictures : MonoBehaviour {
 	
 	public Image image;
 	public Sprite newCoverImage;
-	public Sprite rückseite;
+	//public Sprite rückseite;
 	
 	public Button umdrehen;
-	public bool x;
-	
-	
-	
-	void Start () 
-	{
-		Cursor.visible = false;
-		umdrehen.gameObject.SetActive(true);
-	}
+	//public bool x;
 	
 	void OnMouseDown()
 	{
-       if (canvas.gameObject.activeInHierarchy == false)
-        {
-			Cursor.lockState = CursorLockMode.None; 
-            Cursor.visible = true;
-			canvas.gameObject.SetActive(true);
-            Time.timeScale = 0;
-            Player.GetComponent<FirstPersonController>().enabled = false;
-			
-        }
-	   image.sprite = newCoverImage;
+		umdrehen.gameObject.SetActive(true);
+		image.sprite = newCoverImage;
+		Cursor.lockState = CursorLockMode.None; 
+		Cursor.visible = true;
+		canvas.gameObject.SetActive(true);
+        Time.timeScale = 0;
+        Player.GetComponent<FirstPersonController>().enabled = false;
+	    
 	}   
 
-	
-	public void turnAround(){
+	/*public void turnAround(){
 		if(x==true){
 			image.sprite = newCoverImage;
 		}
@@ -48,6 +37,6 @@ public class ObjectMenu_turn_around_2_Pictures : MonoBehaviour {
 			image.sprite = rückseite;
 		}
 		x= !x;
-	}
-	
+	}*/
+
 }
