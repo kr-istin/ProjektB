@@ -19,7 +19,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4185234745967036}
-  - component: {fileID: 114938200903653488}
   m_Layer: 0
   m_Name: Text Box Manager
   m_TagString: Untagged
@@ -40,22 +39,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114938200903653488
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1370503545800790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31d495d2631e82048ab9b21ce761b9df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textBox: {fileID: 0}
-  theText: {fileID: 0}
-  textFile: {fileID: 4900000, guid: 6e8f5a010a555fe4fa3e3138f0cf2238, type: 3}
-  text: 
-  currentLine: 0
-  endAtLine: 3
-  isActive: 0
-  IvyErzaehlt: {fileID: 0}
