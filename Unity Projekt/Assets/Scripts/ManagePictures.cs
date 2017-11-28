@@ -4,27 +4,34 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
 
-public class MangagePictures : MonoBehaviour {
+public class ManagePictures : MonoBehaviour {
+	
+	public Canvas canvas;
+	public Transform Player;
+	
 	public Image image;
 	public Sprite newCoverImage;
 	
-	public Button umdrehen;
 	public Button next;
-	public Button zurück;
-	private int x;
+	//public Button zurück;
 	
 	public Sprite[] imageList;
-	// Use this for initialization
+
 	void Start () {
-		x = -1;
 		next.gameObject.SetActive(true);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-	public void nextPic()
+	void OnMouseDown()
+	{
+		next.gameObject.SetActive(true);
+		image.sprite = newCoverImage;
+		Cursor.lockState = CursorLockMode.None; 
+		Cursor.visible = true;
+		canvas.gameObject.SetActive(true);
+        Time.timeScale = 0;
+        Player.GetComponent<FirstPersonController>().enabled = false;
+	    
+	}   
+	/*public void nextPic()
 	{
 		x++;
 		zurück.gameObject.SetActive(true);
@@ -44,4 +51,5 @@ public class MangagePictures : MonoBehaviour {
 		}
 		image.sprite = imageList[x];
 	}
+	*/
 }

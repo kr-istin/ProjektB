@@ -8,20 +8,25 @@ public class Menü_funktionen : MonoBehaviour {
 
 	
 	public Canvas canvas;
+	public Canvas canvasPause;
+	
 	public Transform Player;
 	
 	public Button next;
 	public Button zurück;
 	public Button umdrehen;
+	
 	public Sprite rückseite;
 	public Image image;
 	
-	public Sprite newCoverImage;
-	public Sprite[] imageList;
-	
+	public Sprite newCoverImage;	
+	public ManagePictures picturelist;
 	private int x;
 	public bool y;
 	
+	void Start() {
+		x = -1;
+	}
 	void Update () {
 	    if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -32,7 +37,7 @@ public class Menü_funktionen : MonoBehaviour {
     {
 		Cursor.lockState = CursorLockMode.None; 
         Cursor.visible = true;
-        canvas.gameObject.SetActive(true);
+        canvasPause.gameObject.SetActive(true);
         Time.timeScale = 0;
 		Player.GetComponent<FirstPersonController>().enabled = false;
         
@@ -51,33 +56,34 @@ public class Menü_funktionen : MonoBehaviour {
 	{
 		Cursor.lockState = CursorLockMode.Locked; 
         Cursor.visible = false;
-        canvas.gameObject.SetActive(false);
+        canvasPause.gameObject.SetActive(false);
+		canvas.gameObject.SetActive(false);
         Time.timeScale = 1;
         Player.GetComponent<FirstPersonController>().enabled = true;
 		zurück.gameObject.SetActive(false);
 		next.gameObject.SetActive(false);
 		umdrehen.gameObject.SetActive(false);
-		rückseite.gameObject.SetActive(false);
 	}
 	public void nextPic()
 	{
 		x++;
 		zurück.gameObject.SetActive(true);
-		if(x==imageList.Length-1){
+		if(x==picturelist.imageList.Length-1){
 			next.gameObject.SetActive(false);
 		}
-		image.sprite = imageList[x];
+		picturelist.image.sprite = picturelist.imageList[x];
 		
 	}
 	
 	public void beforePic(){
 		x--;
 		if(x==-1){
-			image.sprite = newCoverImage;
+			picturelist.image.sprite = picturelist.newCoverImage;
 			zurück.gameObject.SetActive(false);
 			next.gameObject.SetActive(true);
+		}else{
+		picturelist.image.sprite = picturelist.imageList[x];
 		}
-		image.sprite = imageList[x];
 	}
 	
 	public void turnAround(){

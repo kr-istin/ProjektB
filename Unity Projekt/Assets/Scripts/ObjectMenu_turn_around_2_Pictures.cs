@@ -15,7 +15,7 @@ public class ObjectMenu_turn_around_2_Pictures : MonoBehaviour {
 	//public Sprite rückseite;
 	
 	public Button umdrehen;
-	//public bool x;
+	//public bool y;
 	
 	void OnMouseDown()
 	{
