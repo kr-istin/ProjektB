@@ -35,7 +35,7 @@ public class displayUI : MonoBehaviour {
 
 	}
 
-	void OnMouseOver()
+	void OnTriggerEnter(Collider col)
 	{
 		displayInfo = true;
 
@@ -43,7 +43,7 @@ public class displayUI : MonoBehaviour {
 
 
 
-	void OnMouseExit()
+	void OnTriggerExit(Collider col)
 
 	{
 		displayInfo = false;

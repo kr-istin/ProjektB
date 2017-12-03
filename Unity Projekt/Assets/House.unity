@@ -2847,10 +2847,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 694583362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0307d446571fa9347802e14da7f303b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 378ef32ed6c086d41bd75f9ed5e4eaff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInside: {fileID: 1590764820}
+  myString: Hi
+  myText: {fileID: 1614855611}
+  fadeTime: 10
+  displayInfo: 0
 --- !u!65 &694583365
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5698,21 +5701,6 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 8fc847fdd92983f43b5183ed20e269a3, type: 2}
   m_PrefabInternal: {fileID: 1761551005}
---- !u!114 &1590764821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1590764820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 378ef32ed6c086d41bd75f9ed5e4eaff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myString: Was geht?
-  myText: {fileID: 1614855611}
-  fadeTime: 10
-  displayInfo: 0
 --- !u!65 &1590764822
 BoxCollider:
   m_ObjectHideFlags: 0
