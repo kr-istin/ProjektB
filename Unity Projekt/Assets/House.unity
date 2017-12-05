@@ -550,6 +550,55 @@ Prefab:
       propertyPath: m_Colors.m_PressedColor.b
       value: 0.6833074
       objectReference: {fileID: 0}
+    - target: {fileID: 114202698393905560, guid: 11e462b170eebe84aa6654210806d4ed,
+        type: 2}
+      propertyPath: m_FillCenter
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114202698393905560, guid: 11e462b170eebe84aa6654210806d4ed,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 66cf9581ec4e61e449295436139a76de,
+        type: 3}
+    - target: {fileID: 114202698393905560, guid: 11e462b170eebe84aa6654210806d4ed,
+        type: 2}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114980685841016540, guid: 11e462b170eebe84aa6654210806d4ed,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 66cf9581ec4e61e449295436139a76de,
+        type: 3}
+    - target: {fileID: 114980685841016540, guid: 11e462b170eebe84aa6654210806d4ed,
+        type: 2}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114290413338853040, guid: 11e462b170eebe84aa6654210806d4ed,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 66cf9581ec4e61e449295436139a76de,
+        type: 3}
+    - target: {fileID: 114290413338853040, guid: 11e462b170eebe84aa6654210806d4ed,
+        type: 2}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114536450928626382, guid: 11e462b170eebe84aa6654210806d4ed,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 66cf9581ec4e61e449295436139a76de,
+        type: 3}
+    - target: {fileID: 114536450928626382, guid: 11e462b170eebe84aa6654210806d4ed,
+        type: 2}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 11e462b170eebe84aa6654210806d4ed, type: 2}
   m_IsPrefabParent: 0
@@ -2716,7 +2765,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -2920,8 +2969,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 66cf9581ec4e61e449295436139a76de, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5987,7 +6036,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -6274,8 +6323,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 66cf9581ec4e61e449295436139a76de, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
