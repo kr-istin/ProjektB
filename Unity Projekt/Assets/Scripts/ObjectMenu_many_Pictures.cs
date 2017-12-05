@@ -7,6 +7,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class ObjectMenu_many_Pictures : MonoBehaviour {
 
 	public Canvas canvas;
+	public Canvas PauseCanvas;
 	public Transform Player;
 	
 	public Image image;
@@ -37,7 +38,7 @@ public class ObjectMenu_many_Pictures : MonoBehaviour {
 	
 	public void Pause()
     {
-        if (canvas.gameObject.activeInHierarchy == false)
+        if (canvas.gameObject.activeInHierarchy == false&&PauseCanvas.gameObject.activeInHierarchy == false)
         {
 			Cursor.lockState = CursorLockMode.None; 
             Cursor.visible = true;

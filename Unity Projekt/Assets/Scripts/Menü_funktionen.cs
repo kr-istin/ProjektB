@@ -31,13 +31,13 @@ public class Menü_funktionen : MonoBehaviour {
 	    if (Input.GetKeyDown(KeyCode.Escape))
         {
             Pause();
+			canvasPause.gameObject.SetActive(true);
         }
 	}
     public void Pause()
     {
 		Cursor.lockState = CursorLockMode.None; 
         Cursor.visible = true;
-        canvasPause.gameObject.SetActive(true);
         Time.timeScale = 0;
 		Player.GetComponent<FirstPersonController>().enabled = false;
         
