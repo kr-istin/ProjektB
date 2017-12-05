@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,7 +20,6 @@ public class Menü_funktionen : MonoBehaviour {
 	public Sprite rückseite;
 	public Image image;
 	
-	public Sprite newCoverImage;	
 	public ManagePictures picturelist;
 	private int x;
 	public bool y;
@@ -63,6 +63,8 @@ public class Menü_funktionen : MonoBehaviour {
 		zurück.gameObject.SetActive(false);
 		next.gameObject.SetActive(false);
 		umdrehen.gameObject.SetActive(false);
+		x = -1;
+		Array.Clear(picturelist.imageList, 0, picturelist.imageList.Length);
 	}
 	public void nextPic()
 	{
@@ -86,7 +88,7 @@ public class Menü_funktionen : MonoBehaviour {
 		}
 	}
 	
-	public void turnAround(){
+	/*public void turnAround(){
 		if(y==true){
 			image.sprite = newCoverImage;
 		}
@@ -94,6 +96,6 @@ public class Menü_funktionen : MonoBehaviour {
 			image.sprite = rückseite;
 		}
 		y = !y;
-	}
+	}*/
 	
 }
