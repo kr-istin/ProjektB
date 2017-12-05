@@ -4691,6 +4691,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GlowColor: {r: 1, g: 1, b: 1, a: 0}
   LerpFactor: 10
+--- !u!65 &1263049080
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1263049078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1263049081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1263049078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 154a6c96babff4f4f9556bf6dad5c3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 75608624}
+  PauseCanvas: {fileID: 1734594484}
+  Player: {fileID: 1385510626}
+  image: {fileID: 1396038328}
+  newCoverImage: {fileID: 21300000, guid: 4946982b36dfae0488c74bb2344f2e09, type: 3}
+  next: {fileID: 54492887}
+  imageList:
+  - {fileID: 21300000, guid: 9504b16439c53e44d9357191b16103ec, type: 3}
 --- !u!1 &1277833314 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100036, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
@@ -5975,12 +6006,12 @@ Prefab:
     - target: {fileID: 65033116945262966, guid: 5946bddbf474bda45aa58114e5295480,
         type: 2}
       propertyPath: m_Size.x
-      value: 20
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 65033116945262966, guid: 5946bddbf474bda45aa58114e5295480,
         type: 2}
       propertyPath: m_Size.y
-      value: 28
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 65033116945262966, guid: 5946bddbf474bda45aa58114e5295480,
         type: 2}
@@ -5990,14 +6021,15 @@ Prefab:
     - target: {fileID: 65033116945262966, guid: 5946bddbf474bda45aa58114e5295480,
         type: 2}
       propertyPath: m_Size.z
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 65033116945262966, guid: 5946bddbf474bda45aa58114e5295480,
         type: 2}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 65033116945262966, guid: 5946bddbf474bda45aa58114e5295480, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 5946bddbf474bda45aa58114e5295480, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1575667223 stripped
