@@ -4747,10 +4747,10 @@ MonoBehaviour:
   PauseCanvas: {fileID: 1734594484}
   Player: {fileID: 1385510626}
   image: {fileID: 1396038328}
-  newCoverImage: {fileID: 21300000, guid: 4946982b36dfae0488c74bb2344f2e09, type: 3}
+  newCoverImage: {fileID: 21300000, guid: 8808f2dbb8b13354990866c6c7d4a08b, type: 3}
   next: {fileID: 54492887}
   imageList:
-  - {fileID: 21300000, guid: 9504b16439c53e44d9357191b16103ec, type: 3}
+  - {fileID: 21300000, guid: 4a43063f73f1e5743afb68458006a19b, type: 3}
 --- !u!1 &1277833314 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100036, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
