@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
 
 public class Menü_funktionen : MonoBehaviour {
+
 	
 	public Canvas canvas;
 	public Canvas canvasPause;
@@ -19,12 +20,12 @@ public class Menü_funktionen : MonoBehaviour {
 	public Sprite rückseite;
 	public Image image;
 	
-	public delegate void WeiterButtonClicked();
-	public event WeiterButtonClicked weiterButtonClicked;
-	
-
+	public ManagePictures picturelist;
+	private int x;
+	public bool y;
 	
 	void Start() {
+		x = -1;
 	}
 	void Update () {
 	    if (Input.GetKeyDown(KeyCode.Escape))
@@ -42,7 +43,7 @@ public class Menü_funktionen : MonoBehaviour {
         
     }
 	
-	public void Quit()
+	  public void Quit()
     {
 	#if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
@@ -53,7 +54,6 @@ public class Menü_funktionen : MonoBehaviour {
 	
 	public void Weiter()
 	{
-		weiterButtonClicked();
 		Cursor.lockState = CursorLockMode.Locked; 
         Cursor.visible = false;
         canvasPause.gameObject.SetActive(false);
@@ -63,13 +63,20 @@ public class Menü_funktionen : MonoBehaviour {
 		zurück.gameObject.SetActive(false);
 		next.gameObject.SetActive(false);
 		umdrehen.gameObject.SetActive(false);
+		x = -1;
+		Array.Clear(picturelist.imageList, 0, picturelist.imageList.Length);
 	}
-	
 	public void nextPic()
 	{
+		x++;
 		zurück.gameObject.SetActive(true);
+		if(x==picturelist.imageList.Length-1){
+			next.gameObject.SetActive(false);
+		}
+		picturelist.image.sprite = picturelist.imageList[x];
+		
 	}
-	/*
+	
 	public void beforePic(){
 		x--;
 		if(x==-1){
@@ -81,7 +88,7 @@ public class Menü_funktionen : MonoBehaviour {
 		}
 	}
 	
-	public void turnAround(){
+	/*public void turnAround(){
 		if(y==true){
 			image.sprite = newCoverImage;
 		}
