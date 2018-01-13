@@ -238,7 +238,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1467344676}
+      objectReference: {fileID: 0}
     - target: {fileID: 223651865269893648, guid: 11e462b170eebe84aa6654210806d4ed,
         type: 2}
       propertyPath: m_Camera
@@ -248,12 +248,12 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1467344676}
+      objectReference: {fileID: 0}
     - target: {fileID: 114895684060231756, guid: 11e462b170eebe84aa6654210806d4ed,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1467344676}
+      objectReference: {fileID: 0}
     - target: {fileID: 1994955146871504, guid: 11e462b170eebe84aa6654210806d4ed, type: 2}
       propertyPath: m_IsActive
       value: 0
@@ -282,7 +282,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1467344676}
+      objectReference: {fileID: 0}
     - target: {fileID: 114962153066467908, guid: 11e462b170eebe84aa6654210806d4ed,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -4622,7 +4622,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1467344676}
+      - m_Target: {fileID: 0}
         m_MethodName: Weiter
         m_Mode: 1
         m_Arguments:
@@ -6564,11 +6564,33 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1034423968}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.9331274, y: 0.37580252, z: 0.9999993}
   m_Center: {x: -0.033526376, y: -0.055454247, z: -0.000012234524}
+--- !u!114 &1034423971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1034423968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381a09160e7c4da49b4cb21db0688f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectCanvas: {fileID: 75608624}
+  PauseCanvas: {fileID: 1734594484}
+  Player: {fileID: 1385510626}
+  image: {fileID: 1396038328}
+  next: {fileID: 54492887}
+  before: {fileID: 1913786597}
+  imageList:
+  - {fileID: 21300000, guid: e946659691920314d978c0133edae22e, type: 3}
+  - {fileID: 21300000, guid: dd06d19d03cec824491e399929d00e39, type: 3}
+  - {fileID: 21300000, guid: 66cf9581ec4e61e449295436139a76de, type: 3}
+  - {fileID: 21300000, guid: 6c1dc38eadb2ced4cae9b465b299c47d, type: 3}
 --- !u!1 &1040115192 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 110168, guid: 094b1ce88c26fa145ae8b34a1712b67e, type: 2}
@@ -8437,12 +8459,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 59799fa2671678946a502e2ca01da4a6, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1368169543 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114962153066467908, guid: 11e462b170eebe84aa6654210806d4ed,
-    type: 2}
-  m_PrefabInternal: {fileID: 21438968}
-  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1001 &1372189910
 Prefab:
   m_ObjectHideFlags: 0
@@ -9073,19 +9089,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1467344672}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d794d270ef8c74a90d7289a04487e2, type: 3}
+  m_Script: {fileID: 11500000, guid: c171ac3f4f0c01543b12f4dffb9fd346, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 75608624}
+  canvasObject: {fileID: 75608624}
   canvasPause: {fileID: 1734594484}
   Player: {fileID: 1385510626}
   next: {fileID: 54492887}
-  "zur\xFCck": {fileID: 1913786597}
-  umdrehen: {fileID: 1368169543}
-  "r\xFCckseite": {fileID: 0}
+  before: {fileID: 1913786597}
   image: {fileID: 1396038328}
-  picturelist: {fileID: 1951071608}
-  y: 0
 --- !u!1001 &1473723753
 Prefab:
   m_ObjectHideFlags: 0
@@ -10322,7 +10334,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1467344676}
+      - m_Target: {fileID: 0}
         m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
@@ -11939,7 +11951,6 @@ GameObject:
   - component: {fileID: 1951071604}
   - component: {fileID: 1951071605}
   - component: {fileID: 1951071607}
-  - component: {fileID: 1951071608}
   - component: {fileID: 1951071610}
   - component: {fileID: 1951071609}
   m_Layer: 0
@@ -12021,27 +12032,6 @@ MonoBehaviour:
   myText: {fileID: 0}
   fadeTime: 10
   displayInfo: 0
---- !u!114 &1951071608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1951071601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 154a6c96babff4f4f9556bf6dad5c3f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 75608624}
-  PauseCanvas: {fileID: 1734594484}
-  Player: {fileID: 1385510626}
-  image: {fileID: 1396038328}
-  newCoverImage: {fileID: 21300000, guid: e946659691920314d978c0133edae22e, type: 3}
-  next: {fileID: 54492887}
-  imageList:
-  - {fileID: 21300000, guid: 6c1dc38eadb2ced4cae9b465b299c47d, type: 3}
-  - {fileID: 21300000, guid: 6c1dc38eadb2ced4cae9b465b299c47d, type: 3}
-  - {fileID: 21300000, guid: e946659691920314d978c0133edae22e, type: 3}
 --- !u!65 &1951071609
 BoxCollider:
   m_ObjectHideFlags: 0

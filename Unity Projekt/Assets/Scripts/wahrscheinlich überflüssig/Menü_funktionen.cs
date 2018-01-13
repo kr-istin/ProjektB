@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -96,6 +96,6 @@ public class Menü_funktionen : MonoBehaviour {
 			image.sprite = rückseite;
 		}
 		y = !y;
-	}*/
+	}
 	
-}
+}*/
