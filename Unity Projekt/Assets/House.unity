@@ -9751,7 +9751,7 @@ MonoBehaviour:
   Player: {fileID: 1385510626}
   next: {fileID: 54492887}
   before: {fileID: 1913786597}
-  image: {fileID: 1396038328}
+  image: {fileID: 550149531}
 --- !u!1001 &1473723753
 Prefab:
   m_ObjectHideFlags: 0
