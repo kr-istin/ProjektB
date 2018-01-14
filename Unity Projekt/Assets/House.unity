@@ -9743,7 +9743,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1467344672}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c171ac3f4f0c01543b12f4dffb9fd346, type: 3}
+  m_Script: {fileID: 11500000, guid: 60fb64fc8d570dd4da4932877a83aced, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvasObject: {fileID: 75608624}
@@ -9751,7 +9751,7 @@ MonoBehaviour:
   Player: {fileID: 1385510626}
   next: {fileID: 54492887}
   before: {fileID: 1913786597}
-  image: {fileID: 550149531}
+  image: {fileID: 1396038328}
 --- !u!1001 &1473723753
 Prefab:
   m_ObjectHideFlags: 0

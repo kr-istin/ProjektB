@@ -23,9 +23,9 @@ public class Objekt_Aufruf : MonoBehaviour {
 
 	void OnMouseDown()
 	{
-		FindObjectOfType<Menü_Funktionen>().nextButtonClicked += NextPicture;	 
-		FindObjectOfType<Menü_Funktionen>().weiterButtonClicked += WeiterButton;  
-		FindObjectOfType<Menü_Funktionen>().beforeButtonClicked += BeforePicture;  
+		FindObjectOfType<Menu>().nextButtonClicked += NextPicture;	 
+		FindObjectOfType<Menu>().weiterButtonClicked += WeiterButton;  
+		FindObjectOfType<Menu>().beforeButtonClicked += BeforePicture;  
 		
 		if (ObjectCanvas.gameObject.activeInHierarchy == false&PauseCanvas.gameObject.activeInHierarchy == false){
 			next.gameObject.SetActive(true);
@@ -67,9 +67,9 @@ public class Objekt_Aufruf : MonoBehaviour {
 	
 	void WeiterButton(){
 		
-		FindObjectOfType<Menü_Funktionen>().nextButtonClicked -= NextPicture;
-		FindObjectOfType<Menü_Funktionen>().weiterButtonClicked -= WeiterButton;
-		FindObjectOfType<Menü_Funktionen>().beforeButtonClicked -= BeforePicture;
+		FindObjectOfType<Menu>().nextButtonClicked -= NextPicture;
+		FindObjectOfType<Menu>().weiterButtonClicked -= WeiterButton;
+		FindObjectOfType<Menu>().beforeButtonClicked -= BeforePicture;
 	}
 	
 }
