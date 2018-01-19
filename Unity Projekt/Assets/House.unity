@@ -2954,7 +2954,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 66cf9581ec4e61e449295436139a76de, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 55ca864be27aa314d8fd7d298ee082b2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3856,14 +3856,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.095588244, g: 0.19290659, b: 0.42647058, a: 0.622}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.622}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: eaa5ce75cbb7c2042b52fa23f6f049f0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6247,7 +6247,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 66cf9581ec4e61e449295436139a76de, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8176ffdf864348445bac81741062267f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7215,6 +7215,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: dd06d19d03cec824491e399929d00e39, type: 3}
   - {fileID: 21300000, guid: 66cf9581ec4e61e449295436139a76de, type: 3}
   - {fileID: 21300000, guid: 6c1dc38eadb2ced4cae9b465b299c47d, type: 3}
+  mainCamera: {fileID: 1478593699}
 --- !u!1 &1040115192 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 110168, guid: 094b1ce88c26fa145ae8b34a1712b67e, type: 2}
@@ -9204,7 +9205,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 66cf9581ec4e61e449295436139a76de, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 55ca864be27aa314d8fd7d298ee082b2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13475,6 +13476,7 @@ MonoBehaviour:
   next: {fileID: 0}
   before: {fileID: 0}
   imageList: []
+  mainCamera: {fileID: 0}
 --- !u!1001 &2023416766
 Prefab:
   m_ObjectHideFlags: 0

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityStandardAssets.ImageEffects;
 
 public class Objekt_Aufruf : MonoBehaviour {
 	
@@ -21,7 +22,9 @@ public class Objekt_Aufruf : MonoBehaviour {
 	
 	public Sprite[] imageList;
 
-	void OnMouseDown()
+    public GameObject mainCamera;
+
+    void OnMouseDown()
 	{
 		FindObjectOfType<Menu>().nextButtonClicked += NextPicture;	 
 		FindObjectOfType<Menu>().weiterButtonClicked += WeiterButton;  
@@ -35,7 +38,8 @@ public class Objekt_Aufruf : MonoBehaviour {
 			ObjectCanvas.gameObject.SetActive(true);
 			Time.timeScale = 0;
 			Player.GetComponent<FirstPersonController>().enabled = false;
-		}
+            mainCamera.GetComponent<BlurOptimized>().enabled = true; // activate blur
+        }
 	} 
 	
 	void NextPicture(){
