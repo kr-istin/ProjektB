@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityStandardAssets.ImageEffects;
 
 public class Menu : MonoBehaviour {
 	
@@ -25,12 +26,15 @@ public class Menu : MonoBehaviour {
 	
 	public delegate void BeforeButtonClicked();
 	public event BeforeButtonClicked beforeButtonClicked;
-	
+
+    public GameObject mainCamera;
+
 	void Update () {
 	    if (Input.GetKeyDown(KeyCode.Escape))
         {
             Pause();
 			canvasPause.gameObject.SetActive(true);
+            mainCamera.GetComponent<BlurOptimized>().enabled = true; // activate blur 
         }
 	}
 	
@@ -61,6 +65,7 @@ public class Menu : MonoBehaviour {
         Cursor.visible = false;
         canvasPause.gameObject.SetActive(false);
 		canvasObject.gameObject.SetActive(false);
+        mainCamera.GetComponent<BlurOptimized>().enabled = false; // deactivate blur
         Time.timeScale = 1;
         Player.GetComponent<FirstPersonController>().enabled = true;
 		before.gameObject.SetActive(false);
