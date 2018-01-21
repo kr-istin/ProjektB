@@ -50,6 +50,7 @@ public class Menu : MonoBehaviour {
 	{
 		before.gameObject.SetActive(true);
 		nextButtonClicked();
+		Debug.Log("next sendet") ;
 	}
 	
 	public void beforePic()

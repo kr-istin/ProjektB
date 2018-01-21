@@ -26,9 +26,8 @@ public class Objekt_Aufruf : MonoBehaviour {
 
     void OnMouseDown()
 	{
-		FindObjectOfType<Menu>().nextButtonClicked += NextPicture;	 
-		FindObjectOfType<Menu>().weiterButtonClicked += WeiterButton;  
-		FindObjectOfType<Menu>().beforeButtonClicked += BeforePicture;  
+		Debug.Log("OnMouseDown") ;
+		
 		
 		if (ObjectCanvas.gameObject.activeInHierarchy == false&PauseCanvas.gameObject.activeInHierarchy == false){
 			next.gameObject.SetActive(true);
@@ -39,13 +38,16 @@ public class Objekt_Aufruf : MonoBehaviour {
 			Time.timeScale = 0;
 			Player.GetComponent<FirstPersonController>().enabled = false;
             mainCamera.GetComponent<BlurOptimized>().enabled = true; // activate blur
+			FindObjectOfType<Menu>().nextButtonClicked += NextPicture;	 
+			FindObjectOfType<Menu>().weiterButtonClicked += WeiterButton;  
+			FindObjectOfType<Menu>().beforeButtonClicked += BeforePicture;  
         }
 	} 
 	
 	void NextPicture(){
 		x++;
 		
-		Debug.Log("Hello" + x.ToString()) ;
+		Debug.Log("next empfangen") ;
 		
 		
 		if(x==imageList.Length-1){
@@ -59,8 +61,6 @@ public class Objekt_Aufruf : MonoBehaviour {
 	public void BeforePicture(){
 	
 		x--;	
-		
-		Debug.Log("Hello" + x.ToString()) ;
 		if(x==0){
 			image.sprite = imageList[x];
 			before.gameObject.SetActive(false);
