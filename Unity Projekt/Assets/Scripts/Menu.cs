@@ -50,7 +50,7 @@ public class Menu : MonoBehaviour {
 	{
 		before.gameObject.SetActive(true);
 		nextButtonClicked();
-		Debug.Log("next sendet") ;
+		//Debug.Log("next sendet") ;
 	}
 	
 	public void beforePic()
@@ -59,9 +59,18 @@ public class Menu : MonoBehaviour {
 		beforeButtonClicked();
 	}
 
-	public void Weiter()
+	public void Object_Continue()
 	{
 		weiterButtonClicked();
+		GoOnFunktions();
+		
+	}
+	public void Pause_Continue()
+	{
+		GoOnFunktions();
+	}
+	public void GoOnFunktions()
+	{
 		Cursor.lockState = CursorLockMode.Locked; 
         Cursor.visible = false;
         canvasPause.gameObject.SetActive(false);
@@ -72,7 +81,6 @@ public class Menu : MonoBehaviour {
 		before.gameObject.SetActive(false);
 		next.gameObject.SetActive(false);
 	}
-	
 		public void Quit()
     {
 	#if UNITY_EDITOR

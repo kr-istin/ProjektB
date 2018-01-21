@@ -26,7 +26,7 @@ public class Objekt_Aufruf : MonoBehaviour {
 
     void OnMouseDown()
 	{
-		Debug.Log("OnMouseDown") ;
+		//Debug.Log("OnMouseDown") ;
 		
 		
 		if (ObjectCanvas.gameObject.activeInHierarchy == false&PauseCanvas.gameObject.activeInHierarchy == false){
@@ -47,7 +47,7 @@ public class Objekt_Aufruf : MonoBehaviour {
 	void NextPicture(){
 		x++;
 		
-		Debug.Log("next empfangen") ;
+		//Debug.Log("next empfangen") ;
 		
 		
 		if(x==imageList.Length-1){
