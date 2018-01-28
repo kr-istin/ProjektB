@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: beab421dd1c29f94fa9ece2be6448c74
+timeCreated: 1517168902
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Component#312_001
+    100004: Component#314_001
+    100006: Group_001
+    100008: Group_002
+    100010: Group_003
+    100012: Group_004
+    100014: Group_005
+    100016: Group_006
+    100018: Group_007
+    100020: Group_008
+    100022: Group_009
+    100024: Group_010
+    100026: Group_011
+    100028: Group_012
+    100030: Group_013
+    100032: Group_014
+    100034: Group_015
+    100036: Group_016
+    100038: SimpleDome02_001
+    100040: SimpleDome02_002
+    100042: SimpleDome02_003
+    100044: SimpleDome02_004
+    100046: SimpleDome02_005
+    100048: SimpleDome02_006
+    400000: //RootNode
+    400002: Component#312_001
+    400004: Component#314_001
+    400006: Group_001
+    400008: Group_002
+    400010: Group_003
+    400012: Group_004
+    400014: Group_005
+    400016: Group_006
+    400018: Group_007
+    400020: Group_008
+    400022: Group_009
+    400024: Group_010
+    400026: Group_011
+    400028: Group_012
+    400030: Group_013
+    400032: Group_014
+    400034: Group_015
+    400036: Group_016
+    400038: SimpleDome02_001
+    400040: SimpleDome02_002
+    400042: SimpleDome02_003
+    400044: SimpleDome02_004
+    400046: SimpleDome02_005
+    400048: SimpleDome02_006
+    2300000: Component#312_001
+    2300002: Component#314_001
+    2300004: Group_001
+    2300006: Group_002
+    2300008: Group_003
+    2300010: Group_004
+    2300012: Group_005
+    2300014: Group_006
+    2300016: Group_007
+    2300018: Group_008
+    2300020: Group_009
+    2300022: Group_010
+    2300024: Group_011
+    2300026: Group_012
+    2300028: Group_013
+    2300030: Group_014
+    2300032: Group_015
+    2300034: Group_016
+    2300036: SimpleDome02_001
+    2300038: SimpleDome02_002
+    2300040: SimpleDome02_003
+    2300042: SimpleDome02_004
+    2300044: SimpleDome02_005
+    2300046: SimpleDome02_006
+    3300000: Component#312_001
+    3300002: Component#314_001
+    3300004: Group_001
+    3300006: Group_002
+    3300008: Group_003
+    3300010: Group_004
+    3300012: Group_005
+    3300014: Group_006
+    3300016: Group_007
+    3300018: Group_008
+    3300020: Group_009
+    3300022: Group_010
+    3300024: Group_011
+    3300026: Group_012
+    3300028: Group_013
+    3300030: Group_014
+    3300032: Group_015
+    3300034: Group_016
+    3300036: SimpleDome02_001
+    3300038: SimpleDome02_002
+    3300040: SimpleDome02_003
+    3300042: SimpleDome02_004
+    3300044: SimpleDome02_005
+    3300046: SimpleDome02_006
+    4300000: Component#314_001
+    4300002: Group_016
+    4300004: Group_015
+    4300006: Group_014
+    4300008: SimpleDome02_006
+    4300010: Group_013
+    4300012: SimpleDome02_005
+    4300014: Group_012
+    4300016: Group_011
+    4300018: Group_010
+    4300020: Group_009
+    4300022: SimpleDome02_004
+    4300024: Group_008
+    4300026: SimpleDome02_003
+    4300028: Group_007
+    4300030: Group_006
+    4300032: Group_005
+    4300034: Group_004
+    4300036: SimpleDome02_002
+    4300038: Group_003
+    4300040: SimpleDome02_001
+    4300042: Group_002
+    4300044: Component#312_001
+    4300046: Group_001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
