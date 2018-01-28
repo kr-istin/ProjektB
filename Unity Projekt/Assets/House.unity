@@ -4063,6 +4063,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 22.57868, y: 7.1064854, z: 21.62855}
   m_Center: {x: -2.8885741, y: 3.5532415, z: 1.528359}
+--- !u!114 &612063017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 612063013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381a09160e7c4da49b4cb21db0688f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectCanvas: {fileID: 75608624}
+  PauseCanvas: {fileID: 1734594484}
+  Player: {fileID: 1385510626}
+  image: {fileID: 1396038328}
+  next: {fileID: 54492887}
+  before: {fileID: 1913786597}
+  imageList:
+  - {fileID: 21300000, guid: 3900ced5d57787a47b62d3afcdcb9cab, type: 3}
+  - {fileID: 21300000, guid: 997e765a234994244992f669e4860dbe, type: 3}
+  mainCamera: {fileID: 100002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
 --- !u!1001 &617941675
 Prefab:
   m_ObjectHideFlags: 0
