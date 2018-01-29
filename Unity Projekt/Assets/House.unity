@@ -4512,6 +4512,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.6692915, y: 5.2940316, z: 3.1834707}
   m_Center: {x: 0, y: 2.6470158, z: -0.0000076293945}
+--- !u!114 &612063021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 612063013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9885083f33c3b944a32c420f51f5f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameControl: {fileID: 1759414841}
 --- !u!1001 &617941675
 Prefab:
   m_ObjectHideFlags: 0
@@ -13147,7 +13159,7 @@ GameObject:
   - component: {fileID: 1759414843}
   - component: {fileID: 1759414842}
   m_Layer: 0
-  m_Name: GameControll
+  m_Name: GameControl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
