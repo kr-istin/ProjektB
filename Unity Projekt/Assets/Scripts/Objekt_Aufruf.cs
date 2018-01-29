@@ -28,9 +28,9 @@ public class Objekt_Aufruf : MonoBehaviour {
 	{
 		//Debug.Log("OnMouseDown") ;
 		
-		
 		if (ObjectCanvas.gameObject.activeInHierarchy == false&PauseCanvas.gameObject.activeInHierarchy == false){
 			next.gameObject.SetActive(true);
+			x = 0;
 			image.sprite = imageList[x];
 			Cursor.lockState = CursorLockMode.None; 
 			Cursor.visible = true;
@@ -48,8 +48,6 @@ public class Objekt_Aufruf : MonoBehaviour {
 		x++;
 		
 		//Debug.Log("next empfangen") ;
-		
-		
 		if(x==imageList.Length-1){
 			next.gameObject.SetActive(false);
 			image.sprite = imageList[x];
