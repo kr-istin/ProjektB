@@ -1300,7 +1300,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4431890916476230, guid: 4c8c26ebc22ab3c48b3f10907ace2e79, type: 2}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 23833470575471536, guid: 4c8c26ebc22ab3c48b3f10907ace2e79,
         type: 2}
@@ -2493,7 +2493,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4452454015082844, guid: dd008bbf01728b246b91248de053e2be, type: 2}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 23495091308184556, guid: dd008bbf01728b246b91248de053e2be,
         type: 2}
@@ -5438,6 +5438,10 @@ Prefab:
       propertyPath: m_Center.z
       value: -5
       objectReference: {fileID: 0}
+    - target: {fileID: 1484481910395336, guid: 8d264ceca1ba05b4ab106783af60ab04, type: 2}
+      propertyPath: m_TagString
+      value: storyTelephoneNote
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8d264ceca1ba05b4ab106783af60ab04, type: 2}
   m_IsPrefabParent: 0
@@ -6022,6 +6026,18 @@ Transform:
   m_PrefabParentObject: {fileID: 4966043610646408, guid: 8d264ceca1ba05b4ab106783af60ab04,
     type: 2}
   m_PrefabInternal: {fileID: 670583187}
+--- !u!65 &749376425
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749376423}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1134449, y: 143.67155, z: 1.1199569}
+  m_Center: {x: 0.033127397, y: -71.46067, z: -0.023663115}
 --- !u!114 &749376428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8487,9 +8503,10 @@ GameObject:
   - component: {fileID: 1227266376}
   - component: {fileID: 1227266378}
   - component: {fileID: 1227266377}
+  - component: {fileID: 1227266379}
   m_Layer: 0
   m_Name: story_pillsBottle
-  m_TagString: Untagged
+  m_TagString: storryPills
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8535,6 +8552,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GlowColor: {r: 1, g: 1, b: 1, a: 0}
   LerpFactor: 10
+--- !u!65 &1227266379
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1227266375}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.077614084, y: -0.080039084, z: 0.12802503}
+  m_Center: {x: 0.00016021729, y: -0.002500534, z: 0.05831623}
 --- !u!4 &1231456848 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4347993589107950, guid: 57a1eb2177d9fb74fb47bd18b666e576,
@@ -11660,7 +11689,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14272,6 +14301,10 @@ Prefab:
     - target: {fileID: 1497643547677738, guid: 76a40392a9ee96a4ca3efd2af499e6fc, type: 2}
       propertyPath: m_TagString
       value: storyFridgeNote
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497643547677738, guid: 76a40392a9ee96a4ca3efd2af499e6fc, type: 2}
+      propertyPath: m_Name
+      value: story_fridgenote
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76a40392a9ee96a4ca3efd2af499e6fc, type: 2}
