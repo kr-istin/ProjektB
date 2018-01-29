@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
 using UnityStandardAssets.ImageEffects;
+using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour {
 	
@@ -88,5 +89,9 @@ public class Menu : MonoBehaviour {
 	#else
         Application.Quit ();
 	#endif
+    }
+	public void To_Main_Menu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
