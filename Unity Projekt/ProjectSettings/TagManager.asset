@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - storyTeddy
+  - storyFridgeNote
+  - storyHousepic
+  - storyEltacoloco
+  - storyBook
+  - storyNewspaper_Clipping
+  - storyEnvelopeClosed
+  - storyLetter
+  - storyBook_Joanna
   layers:
   - Default
   - TransparentFX
