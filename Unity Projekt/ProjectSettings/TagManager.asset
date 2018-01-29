@@ -13,8 +13,8 @@ TagManager:
   - storyEnvelopeClosed
   - storyLetter
   - storyBook_Joanna
-  - storryPills
   - storyTelephoneNote
+  - storyPills
   layers:
   - Default
   - TransparentFX

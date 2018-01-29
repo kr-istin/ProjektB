@@ -1136,8 +1136,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.020000016, y: 0.01638098, z: 0.044311777}
-  m_Center: {x: 0.00000003213063, y: 0.00032633677, z: 0.02212576}
+  m_Size: {x: 0.020000016, y: 0.014554549, z: 0.044311777}
+  m_Center: {x: 0.0000010457766, y: 0.0012386371, z: 0.022126926}
 --- !u!1 &202767923
 GameObject:
   m_ObjectHideFlags: 0
@@ -5934,6 +5934,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GlowColor: {r: 1, g: 1, b: 1, a: 0}
   LerpFactor: 10
+--- !u!114 &719606201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 719606194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9885083f33c3b944a32c420f51f5f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameControl: {fileID: 1759414841}
 --- !u!1001 &733066956
 Prefab:
   m_ObjectHideFlags: 0
@@ -6072,6 +6084,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GlowColor: {r: 1, g: 1, b: 1, a: 0}
   LerpFactor: 10
+--- !u!114 &749376431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749376423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9885083f33c3b944a32c420f51f5f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameControl: {fileID: 1759414841}
 --- !u!4 &762708292 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000010460654004, guid: dcd0587b065a66040bf53ce3ab8edf86,
@@ -7707,8 +7731,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.000005, y: 0.00002965331, z: 10.000006}
-  m_Center: {x: -0.00015258789, y: 0.0009765625, z: -0.0001373291}
+  m_Size: {x: 10.000005, y: -74.66158, z: 10.000006}
+  m_Center: {x: -0.01344386, y: 42.66763, z: -0.011546441}
 --- !u!4 &1026700659 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4431890916476230, guid: 4c8c26ebc22ab3c48b3f10907ace2e79,
@@ -7735,6 +7759,18 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f5e61ac85f777f04f8ed1ce34aa93f35, type: 3}
   - {fileID: 21300000, guid: 5b49851395f8e8e4cbf6e567a4bbac24, type: 3}
   mainCamera: {fileID: 1478593699}
+--- !u!114 &1026700662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1026700654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9885083f33c3b944a32c420f51f5f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameControl: {fileID: 1759414841}
 --- !u!1 &1034423968 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100008, guid: 78b6f28ce2ffb9b47a8f1e7bdec4184b, type: 3}
@@ -8504,9 +8540,11 @@ GameObject:
   - component: {fileID: 1227266378}
   - component: {fileID: 1227266377}
   - component: {fileID: 1227266379}
+  - component: {fileID: 1227266381}
+  - component: {fileID: 1227266380}
   m_Layer: 0
   m_Name: story_pillsBottle
-  m_TagString: storryPills
+  m_TagString: storyPills
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8564,6 +8602,39 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.077614084, y: -0.080039084, z: 0.12802503}
   m_Center: {x: 0.00016021729, y: -0.002500534, z: 0.05831623}
+--- !u!114 &1227266380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1227266375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381a09160e7c4da49b4cb21db0688f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectCanvas: {fileID: 75608624}
+  PauseCanvas: {fileID: 1734594484}
+  Player: {fileID: 1385510626}
+  image: {fileID: 1396038328}
+  next: {fileID: 54492887}
+  before: {fileID: 1913786597}
+  imageList:
+  - {fileID: 21300000, guid: e4c1856ed9907544fb3d5e6e1b3b6b96, type: 3}
+  - {fileID: 21300000, guid: fa527449a7d0ce148bd9389499afc73c, type: 3}
+  mainCamera: {fileID: 1478593699}
+--- !u!114 &1227266381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1227266375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9885083f33c3b944a32c420f51f5f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameControl: {fileID: 1759414841}
 --- !u!4 &1231456848 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4347993589107950, guid: 57a1eb2177d9fb74fb47bd18b666e576,
@@ -13135,6 +13206,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teddy: {fileID: 612063013}
+  pills: {fileID: 1227266375}
+  telephoneNote: {fileID: 749376423}
+  fridgenote: {fileID: 1930699098}
+  housepic: {fileID: 719606194}
+  eltacoloco: {fileID: 1026700654}
 --- !u!4 &1759414843
 Transform:
   m_ObjectHideFlags: 0
@@ -13870,8 +13946,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.021275403, y: 0.018293928, z: 0.027254894}
-  m_Center: {x: -4.72362e-10, y: -0.00029560828, z: 0.01884837}
+  m_Size: {x: 0.021275403, y: 0.012423645, z: 0.027254896}
+  m_Center: {x: -0.000000040923855, y: 0.0026412508, z: 0.01884837}
 --- !u!4 &1923773140 stripped
 Transform:
   m_PrefabParentObject: {fileID: 457454, guid: b006dd3bb62abd14a83157791fb647ec, type: 2}
@@ -13907,8 +13983,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000008, y: 1.0002048, z: 1.0000005}
-  m_Center: {x: 0.000000059604645, y: 0, z: 0}
+  m_Size: {x: 1.0000008, y: 84.021454, z: 1.0000005}
+  m_Center: {x: 0.0000008845906, y: 41.481327, z: 0.0000034562547}
 --- !u!4 &1930699102 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4690287348273662, guid: 76a40392a9ee96a4ca3efd2af499e6fc,
@@ -13948,6 +14024,18 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 21bef5fcd8e459544857565e762560fc, type: 3}
   - {fileID: 21300000, guid: 27c65eb2a58ba384d88a02c718fd7e41, type: 3}
   mainCamera: {fileID: 1478593699}
+--- !u!114 &1930699106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1930699098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9885083f33c3b944a32c420f51f5f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameControl: {fileID: 1759414841}
 --- !u!1 &1933396910 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 69876b662dbfff945b3239cdac3b1811, type: 2}

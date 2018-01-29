@@ -4,9 +4,27 @@ using UnityEngine;
 
 public class checkForObjectMenu : MonoBehaviour {
 
+    /// <summary>
+    ///     alle Story Objekte als GameObjekt
+    ///     (damit andere Skripte auf diese zugreifen können)
+    /// </summary>
+
+    // Wohnzimmer
     public GameObject teddy;
-	
-	void Update () {
+
+    // Badezimmer
+    public GameObject pills;
+
+    // Flur
+    public GameObject telephoneNote;
+
+    // Küche
+    public GameObject fridgenote;
+    public GameObject housepic;
+    public GameObject eltacoloco;
+
+
+    void Update () {
         if (Input.GetMouseButtonDown(0))        // 0 = left mouse button
         {
             RaycastHit hit;
@@ -14,17 +32,51 @@ public class checkForObjectMenu : MonoBehaviour {
 
             if (Physics.Raycast(ray, out hit))
             {
-                
-				// Teddy
-				if (hit.transform.tag == "storyTeddy")
+
+                /**********************************************
+                *   Wohnzimmer
+                **********************************************/
+                if (hit.transform.tag == "storyTeddy")
                 {
                     teddy.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
                 }
 
-                else
+
+                /**********************************************
+                *   Badezimmer
+                **********************************************/
+                else if(hit.transform.tag == "storyPills")
                 {
-                    Debug.Log("kein storyobject");
+                    pills.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
                 }
+
+
+                /**********************************************
+                *   Flur
+                **********************************************/
+                else if (hit.transform.tag == "storyTelephoneNote")
+                {
+                    telephoneNote.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
+                }
+
+                /**********************************************
+                *   Küche
+                **********************************************/
+                else if (hit.transform.tag == "storyFridgeNote")
+                {
+                    fridgenote.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
+                }
+
+                else if (hit.transform.tag == "storyEltacoloco")
+                {
+                    eltacoloco.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
+                }
+
+                else if (hit.transform.tag == "storyHousepic")
+                {
+                    housepic.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
+                }
+
             }
         }
     }
