@@ -6,7 +6,6 @@ public class checkForObjectMenu : MonoBehaviour {
 
     public GameObject teddy;
 	
-	// Update is called once per frame
 	void Update () {
         if (Input.GetMouseButtonDown(0))        // 0 = left mouse button
         {
@@ -15,9 +14,10 @@ public class checkForObjectMenu : MonoBehaviour {
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.transform.tag == "1")
+                
+				// Teddy
+				if (hit.transform.tag == "storyTeddy")
                 {
-                    Debug.Log("HIT");
                     teddy.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
                 }
 

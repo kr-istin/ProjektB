@@ -4,8 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - storyObject
-  - 1
+  - storyTeddy
   layers:
   - Default
   - TransparentFX

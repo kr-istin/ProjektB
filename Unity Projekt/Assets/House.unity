@@ -5217,7 +5217,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a7ce98cc5054f1e40a18abf2b20bad6a, type: 3}
       propertyPath: m_TagString
-      value: 1
+      value: storyTeddy
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a7ce98cc5054f1e40a18abf2b20bad6a, type: 3}
       propertyPath: m_Icon
