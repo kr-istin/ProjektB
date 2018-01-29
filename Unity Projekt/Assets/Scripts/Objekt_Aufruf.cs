@@ -24,7 +24,7 @@ public class Objekt_Aufruf : MonoBehaviour {
 
     public GameObject mainCamera;
 
-    void OnMouseDown()
+	public void OpenObjectMenu()
 	{
 		//Debug.Log("OnMouseDown") ;
 		
