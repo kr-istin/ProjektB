@@ -11,6 +11,8 @@ public class checkForObjectMenu : MonoBehaviour {
 
     // Wohnzimmer
     public GameObject teddy;
+    public GameObject envelopeClosed;
+    public GameObject letter;
 
     // Badezimmer
     public GameObject pills;
@@ -39,6 +41,16 @@ public class checkForObjectMenu : MonoBehaviour {
                 if (hit.transform.tag == "storyTeddy")
                 {
                     teddy.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
+                }
+
+                else if (hit.transform.tag == "storyEnvelopeClosed")
+                {
+                    envelopeClosed.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
+                }
+
+                else if (hit.transform.tag == "storyLetter")
+                {
+                    letter.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
                 }
 
 

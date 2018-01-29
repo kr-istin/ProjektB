@@ -5640,8 +5640,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 0.5, z: 0.5741894}
-  m_Center: {x: -0.000001488159, y: -0.00000009169948, z: 0.33709472}
+  m_Size: {x: 2, y: 0.5, z: 0.23541293}
+  m_Center: {x: -0.0000047514854, y: -0.00000022924871, z: 0.16770658}
 --- !u!1001 &703847646
 Prefab:
   m_ObjectHideFlags: 0
@@ -12812,12 +12812,46 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.008498808, y: 0.020000009, z: 0.006213866}
-  m_Center: {x: 0.000000011175871, y: -9.313226e-10, z: 0.000000029802322}
+  m_Size: {x: 0.008498808, y: 0.35262585, z: 0.006213866}
+  m_Center: {x: 0.00000012750263, y: -0.16631365, z: -0.000000029490185}
 --- !u!4 &1738191663 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 89341ad23b2d0c54dad711d63da173d3, type: 3}
   m_PrefabInternal: {fileID: 1529514423}
+--- !u!114 &1738191665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1738191658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381a09160e7c4da49b4cb21db0688f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectCanvas: {fileID: 75608624}
+  PauseCanvas: {fileID: 1734594484}
+  Player: {fileID: 1385510626}
+  image: {fileID: 1396038328}
+  next: {fileID: 54492887}
+  before: {fileID: 1913786597}
+  imageList:
+  - {fileID: 21300000, guid: bc87c4426e5161d4c9248d83e59f52ec, type: 3}
+  - {fileID: 21300000, guid: 836d731b6eeb56342a7477d2fa295672, type: 3}
+  - {fileID: 21300000, guid: 360be743bb7a3d3469ee432826ce7e58, type: 3}
+  mainCamera: {fileID: 1478593699}
+--- !u!114 &1738191666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1738191658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9885083f33c3b944a32c420f51f5f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameControl: {fileID: 1759414841}
 --- !u!1001 &1745091865
 Prefab:
   m_ObjectHideFlags: 0
@@ -13206,6 +13240,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teddy: {fileID: 612063013}
+  envelopeClosed: {fileID: 1738191658}
+  letter: {fileID: 1858916826}
   pills: {fileID: 1227266375}
   telephoneNote: {fileID: 749376423}
   fridgenote: {fileID: 1930699098}
@@ -13799,8 +13835,42 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.013779983, y: 0.0111024175, z: 0.0030723955}
-  m_Center: {x: 0.004693319, y: 0.0032525128, z: -0.00075660483}
+  m_Size: {x: 0.013779983, y: 0.011102417, z: 0.0048595397}
+  m_Center: {x: 0.004693237, y: 0.0032525284, z: 0.0001369469}
+--- !u!114 &1858916833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1858916826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9885083f33c3b944a32c420f51f5f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameControl: {fileID: 1759414841}
+--- !u!114 &1858916834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1858916826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381a09160e7c4da49b4cb21db0688f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectCanvas: {fileID: 75608624}
+  PauseCanvas: {fileID: 1734594484}
+  Player: {fileID: 1385510626}
+  image: {fileID: 1396038328}
+  next: {fileID: 54492887}
+  before: {fileID: 1913786597}
+  imageList:
+  - {fileID: 21300000, guid: bc87c4426e5161d4c9248d83e59f52ec, type: 3}
+  - {fileID: 21300000, guid: 836d731b6eeb56342a7477d2fa295672, type: 3}
+  - {fileID: 21300000, guid: 360be743bb7a3d3469ee432826ce7e58, type: 3}
+  mainCamera: {fileID: 1478593699}
 --- !u!1001 &1860895680
 Prefab:
   m_ObjectHideFlags: 0
