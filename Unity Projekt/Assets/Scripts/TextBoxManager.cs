@@ -122,7 +122,7 @@ public class TextBoxManager : MonoBehaviour {
 
 	IEnumerator timeCounter() 
 	{
-		yield return new WaitForSeconds(8);
+		yield return new WaitForSeconds(7);
 		textBox.SetActive(false);
 		Destroy (gameObject);
 		yield break;
