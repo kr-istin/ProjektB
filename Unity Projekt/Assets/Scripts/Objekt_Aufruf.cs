@@ -24,6 +24,17 @@ public class Objekt_Aufruf : MonoBehaviour {
 
     public GameObject mainCamera;
 
+
+	public AudioClip sound;
+	AudioSource source;
+	//private AudioSource source;
+
+
+	void Awake(){
+		source = GetComponent<AudioSource> ();
+	
+	}
+
 	public void OpenObjectMenu()
 	{
 		//Debug.Log("OnMouseDown") ;
@@ -51,8 +62,10 @@ public class Objekt_Aufruf : MonoBehaviour {
 		if(x==imageList.Length-1){
 			next.gameObject.SetActive(false);
 			image.sprite = imageList[x];
+			source.PlayOneShot (sound);
 			}else{
 				image.sprite = imageList[x];
+				source.PlayOneShot (sound);
 			}
 	}
 	
@@ -62,8 +75,10 @@ public class Objekt_Aufruf : MonoBehaviour {
 		if(x==0){
 			image.sprite = imageList[x];
 			before.gameObject.SetActive(false);
+			source.PlayOneShot (sound);
 		}else{
 			image.sprite = imageList[x];
+			source.PlayOneShot (sound);
 		}
 	}
 	
