@@ -15,7 +15,7 @@ public class LoadLevel : MonoBehaviour {
 		yield return new WaitForSeconds(6);
 		Application.LoadLevel("House");
 	}*/
-	void Start(){
+	void Update(){
 		Invoke ("Load", 5);
 	}
 
