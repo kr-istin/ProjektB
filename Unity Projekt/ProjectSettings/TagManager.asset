@@ -15,7 +15,7 @@ TagManager:
   - storyBook_Joanna
   - storyTelephoneNote
   - storyPills
-  - strairsTrigger
+  - stairsTrigger
   layers:
   - Default
   - TransparentFX
