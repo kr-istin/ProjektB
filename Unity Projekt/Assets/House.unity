@@ -7267,6 +7267,47 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 864823422}
+--- !u!1 &874005954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 874005955}
+  - component: {fileID: 874005956}
+  m_Layer: 0
+  m_Name: goUpstairs
+  m_TagString: goUpstairs
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &874005955
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 874005954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 271834885}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &874005956
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 874005954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7035193, y: 6.5593247, z: 13.4626255}
+  m_Center: {x: -0.024864903, y: -4.728249, z: 6.2322655}
 --- !u!4 &877974022 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 094627802cc8b7849aed1eb1a64bbe75, type: 3}
@@ -13188,7 +13229,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16006ac8114f17a46bf165dcb56175ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pills: {fileID: 1227266375}
+  upstrairsTrigger: {fileID: 874005954}
+  stairsTrigger: {fileID: 428828611}
 --- !u!1 &1624594488
 GameObject:
   m_ObjectHideFlags: 0

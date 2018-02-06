@@ -6,8 +6,9 @@ public class Hauptmenü_funktionen : MonoBehaviour {
 	
 	public void PlayGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("House");
     }
+
 	public void EndGame(){
 		//Application.Quit();
 		#if UNITY_EDITOR
@@ -15,8 +16,12 @@ public class Hauptmenü_funktionen : MonoBehaviour {
 		#else
 			Application.Quit ();
 		#endif
-    
 	}
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 	
 	
 }

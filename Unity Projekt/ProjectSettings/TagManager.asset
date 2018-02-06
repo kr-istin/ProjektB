@@ -17,6 +17,7 @@ TagManager:
   - storyPills
   - stairsTrigger
   - ignoreTrigger
+  - goUpstairs
   layers:
   - Default
   - TransparentFX

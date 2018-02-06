@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class onClickCounter : MonoBehaviour
 {
@@ -8,7 +9,8 @@ public class onClickCounter : MonoBehaviour
     protected int[] counterArray;     // Array für die zu zählenden Objekte
     protected int arraySum;           // Variable zum zusammen Zählen der Array Werte
 
-    public GameObject pills;
+    public GameObject upstrairsTrigger;
+    public GameObject stairsTrigger;
 
     void Start()
     {
@@ -126,14 +128,38 @@ public class onClickCounter : MonoBehaviour
     {
         if (trigger.tag == "stairsTrigger")
         {
-
             for (int i = 0; i < counterArray.Length; i++)
             {
                 arraySum += counterArray[i];
             }
 
-            Debug.Log("Summe:" + arraySum);
-            arraySum = 0;
+
+            arraySum = 9;
+
+            if (arraySum >= 8)
+            {
+                Debug.Log("genug Objekte, Summe:" + arraySum);
+                arraySum = 0;
+                upstrairsTrigger.gameObject.SetActive(true);
+                Destroy(stairsTrigger);
+            }
+
+            else
+            {
+                Debug.Log("Nicht genug Objekte, Summe:" + arraySum);
+                arraySum = 0;
+            }
+               
+        }
+
+        if (trigger.tag == "goUpstairs")
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            Time.timeScale = 0;
+            SceneManager.LoadScene("DemoThanks");
         }
     }
+
+
 }
