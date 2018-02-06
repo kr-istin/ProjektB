@@ -82,7 +82,6 @@ public class checkForObjectMenu : MonoBehaviour {
                 **********************************************/
                 else if(hit.transform.tag == "storyPills")
                 {
-                    Debug.Log("check for object menu fired");
                     pills.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
                 }
 
@@ -105,7 +104,6 @@ public class checkForObjectMenu : MonoBehaviour {
 
                 else if (hit.transform.tag == "storyEltacoloco")
                 {
-                    Debug.Log("check for object menu fired");
                     eltacoloco.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
                 }
 

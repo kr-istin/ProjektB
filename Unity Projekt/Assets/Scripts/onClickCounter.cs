@@ -35,37 +35,31 @@ public class onClickCounter : MonoBehaviour
                 if (hit.transform.tag == "storyTeddy")
                 {
                     counterArray[0] = 1;
-                    Debug.Log("Teddy wurde gezählt");
                 }
 
                 else if (hit.transform.tag == "storyEnvelopeClosed")
                 {
                     counterArray[1] = 1;
-                    Debug.Log("EnvelopeClosed wurde gezählt");
                 }
 
                 else if (hit.transform.tag == "storyLetter")
                 {
                     counterArray[2] = 1;
-                    Debug.Log("Letter wurde gezählt");
                 }
 
                 else if (hit.transform.tag == "storyBook")
                 {
                     counterArray[3] = 1;
-                    Debug.Log("Book wurde gezählt");
                 }
 
                 else if (hit.transform.tag == "storyNewspaper_Clipping")
                 {
                     counterArray[4] = 1;
-                    Debug.Log("Newspaper_Clipping wurde gezählt");
                 }
 
                 else if (hit.transform.tag == "storyBook_Joanna")
                 {
                     counterArray[5] = 1;
-                    Debug.Log("Book_Joanna wurde gezählt");
                 }
 
 
@@ -112,14 +106,19 @@ public class onClickCounter : MonoBehaviour
 
             }
 
+            /**********************************************
+             * for testing purposes
+             *  **********************************************/
+
+            /*
             for (int i = 0; i < counterArray.Length; i++)
             {
                 arraySum += counterArray[i];
             }
 
-            Debug.Log("Objekte: " + arraySum);
+           Debug.Log("Objekte: " + arraySum);
             arraySum = 0;           // zurücksetzen der Summe, da sie zum testen öfter ausgegeben wird
-
+            */
         }
     }
 
@@ -138,7 +137,7 @@ public class onClickCounter : MonoBehaviour
 
             if (arraySum >= 8)
             {
-                Debug.Log("genug Objekte, Summe:" + arraySum);
+                //Debug.Log("genug Objekte, Summe:" + arraySum);
                 arraySum = 0;
                 upstrairsTrigger.gameObject.SetActive(true);
                 Destroy(stairsTrigger);
@@ -146,7 +145,7 @@ public class onClickCounter : MonoBehaviour
 
             else
             {
-                Debug.Log("Nicht genug Objekte, Summe:" + arraySum);
+                //Debug.Log("Nicht genug Objekte, Summe:" + arraySum);
                 arraySum = 0;
             }
                
