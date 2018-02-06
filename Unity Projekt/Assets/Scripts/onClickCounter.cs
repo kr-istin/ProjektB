@@ -69,7 +69,6 @@ public class onClickCounter : MonoBehaviour
                 else if (hit.transform.tag == "storyPills")
                 {
                     counterArray[6] = 1;
-                    Debug.Log("Pills wurde gezählt");
                 }
 
 
@@ -79,7 +78,6 @@ public class onClickCounter : MonoBehaviour
                 else if (hit.transform.tag == "storyTelephoneNote")
                 {
                     counterArray[7] = 1;
-                    Debug.Log("TelephoneNote wurde gezählt");
                 }
 
 
@@ -89,19 +87,16 @@ public class onClickCounter : MonoBehaviour
                 else if (hit.transform.tag == "storyFridgeNote")
                 {
                     counterArray[8] = 1;
-                    Debug.Log("FridgeNote wurde gezählt");
                 }
 
                 else if (hit.transform.tag == "storyEltacoloco")
                 {
                     counterArray[9] = 1;
-                    Debug.Log("Eltacoloco wurde gezählt");
                 }
 
                 else if (hit.transform.tag == "storyHousepic")
                 {
                     counterArray[10] = 1;
-                    Debug.Log("Housepic wurde gezählt");
                 }
 
             }
@@ -131,9 +126,6 @@ public class onClickCounter : MonoBehaviour
             {
                 arraySum += counterArray[i];
             }
-
-
-            arraySum = 9;
 
             if (arraySum >= 8)
             {

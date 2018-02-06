@@ -14109,9 +14109,8 @@ MonoBehaviour:
   next: {fileID: 54492887}
   before: {fileID: 1913786597}
   imageList:
-  - {fileID: 21300000, guid: bc87c4426e5161d4c9248d83e59f52ec, type: 3}
-  - {fileID: 21300000, guid: 836d731b6eeb56342a7477d2fa295672, type: 3}
-  - {fileID: 21300000, guid: 360be743bb7a3d3469ee432826ce7e58, type: 3}
+  - {fileID: 21300000, guid: f17c6deb94e2af741916efe830d035a7, type: 3}
+  - {fileID: 21300000, guid: 64d70ad4885dd3545989efc1c9e66cd7, type: 3}
   mainCamera: {fileID: 1478593699}
   sound: {fileID: 8300000, guid: 8fa8a9df58fe87e479e9bb91add40223, type: 3}
 --- !u!114 &1738191666
