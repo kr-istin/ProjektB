@@ -29,7 +29,7 @@ public class checkForObjectMenu : MonoBehaviour {
     public GameObject eltacoloco;
 
 
-    void Update () {
+    void FixedUpdate () {
         if (Input.GetMouseButtonDown(0))        // 0 = left mouse button
         {
             RaycastHit hit;
