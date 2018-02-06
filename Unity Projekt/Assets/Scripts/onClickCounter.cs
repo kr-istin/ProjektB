@@ -8,6 +8,7 @@ public class onClickCounter : MonoBehaviour
     protected int[] counterArray;     // Array für die zu zählenden Objekte
     protected int arraySum;           // Variable zum zusammen Zählen der Array Werte
 
+    public GameObject pills;
 
     void Start()
     {
@@ -16,7 +17,7 @@ public class onClickCounter : MonoBehaviour
 
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetMouseButtonDown(0))        // 0 = left mouse button
         {

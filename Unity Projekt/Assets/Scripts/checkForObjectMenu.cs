@@ -1,6 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
+using UnityStandardAssets.ImageEffects;
 
 public class checkForObjectMenu : MonoBehaviour {
 
@@ -37,6 +41,8 @@ public class checkForObjectMenu : MonoBehaviour {
 
             if (Physics.Raycast(ray, out hit))
             {
+
+                Debug.Log("check for object menu raycast hit");
 
                 /**********************************************
                 *   Wohnzimmer
@@ -76,6 +82,7 @@ public class checkForObjectMenu : MonoBehaviour {
                 **********************************************/
                 else if(hit.transform.tag == "storyPills")
                 {
+                    Debug.Log("check for object menu fired");
                     pills.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
                 }
 
@@ -98,6 +105,7 @@ public class checkForObjectMenu : MonoBehaviour {
 
                 else if (hit.transform.tag == "storyEltacoloco")
                 {
+                    Debug.Log("check for object menu fired");
                     eltacoloco.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
                 }
 

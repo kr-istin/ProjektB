@@ -18,6 +18,9 @@ public class ObjectMenuController : MonoBehaviour {
 
     void OnTriggerExit(Collider col)
     {
-        gameControl.GetComponent<checkForObjectMenu>().enabled = false;
+        if (col.tag != "ignoreTrigger")
+        {
+            gameControl.GetComponent<checkForObjectMenu>().enabled = false;
+        }
     }
 }

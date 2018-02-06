@@ -16,6 +16,7 @@ TagManager:
   - storyTelephoneNote
   - storyPills
   - stairsTrigger
+  - ignoreTrigger
   layers:
   - Default
   - TransparentFX

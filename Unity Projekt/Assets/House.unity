@@ -616,6 +616,10 @@ Prefab:
       propertyPath: m_Name
       value: furniture_armchair
       objectReference: {fileID: 0}
+    - target: {fileID: 168558, guid: b006dd3bb62abd14a83157791fb647ec, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b006dd3bb62abd14a83157791fb647ec, type: 2}
   m_IsPrefabParent: 0
@@ -1150,7 +1154,7 @@ GameObject:
   - component: {fileID: 202767925}
   m_Layer: 0
   m_Name: story_book_joanna_collider (1)
-  m_TagString: Untagged
+  m_TagString: ignoreTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2397,7 +2401,7 @@ GameObject:
   - component: {fileID: 316904179}
   m_Layer: 0
   m_Name: story_housepic_collider
-  m_TagString: Untagged
+  m_TagString: ignoreTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3916,7 +3920,7 @@ GameObject:
   - component: {fileID: 504854855}
   m_Layer: 0
   m_Name: story_envelope_collider (1)
-  m_TagString: Untagged
+  m_TagString: ignoreTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4891,7 +4895,7 @@ GameObject:
   - component: {fileID: 563042154}
   m_Layer: 0
   m_Name: story_letter_collider_display
-  m_TagString: Untagged
+  m_TagString: ignoreTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6053,7 +6057,7 @@ GameObject:
   - component: {fileID: 677895240}
   m_Layer: 0
   m_Name: story_Teddybear_collider (1)
-  m_TagString: Untagged
+  m_TagString: ignoreTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9060,7 +9064,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1142416537453534, guid: 29555ca14dbf64344a0a834430be478a, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224235727895248910, guid: 29555ca14dbf64344a0a834430be478a,
         type: 2}
@@ -9383,7 +9387,7 @@ GameObject:
   - component: {fileID: 1171672730}
   m_Layer: 0
   m_Name: 'story_newspaper clipping_collider '
-  m_TagString: Untagged
+  m_TagString: ignoreTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11256,6 +11260,10 @@ Prefab:
       propertyPath: m_Name
       value: furniture_Sink
       objectReference: {fileID: 0}
+    - target: {fileID: 110918, guid: 59799fa2671678946a502e2ca01da4a6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 59799fa2671678946a502e2ca01da4a6, type: 2}
   m_IsPrefabParent: 0
@@ -11509,7 +11517,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1406618128}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.03720433, y: 0.03417897, z: 0.034217585}
@@ -12619,7 +12627,7 @@ GameObject:
   - component: {fileID: 1558002965}
   m_Layer: 0
   m_Name: story_fridgenote_collider (2)
-  m_TagString: Untagged
+  m_TagString: ignoreTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13140,6 +13148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16006ac8114f17a46bf165dcb56175ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pills: {fileID: 1227266375}
 --- !u!1 &1624594488
 GameObject:
   m_ObjectHideFlags: 0
@@ -13340,7 +13349,7 @@ GameObject:
   - component: {fileID: 1660952876}
   m_Layer: 0
   m_Name: story_book_collider
-  m_TagString: Untagged
+  m_TagString: ignoreTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13622,7 +13631,7 @@ GameObject:
   - component: {fileID: 1674798477}
   m_Layer: 0
   m_Name: eltacoloco_collider
-  m_TagString: Untagged
+  m_TagString: ignoreTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14497,7 +14506,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1759414841}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c86008e648fdfbd46ba34ded1ce2b009, type: 3}
   m_Name: 
