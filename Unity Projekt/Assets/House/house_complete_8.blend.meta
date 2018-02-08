@@ -32,6 +32,10 @@ ModelImporter:
     100048: door
     100050: door_open
     100052: door_frames_kitchencorridor
+    100054: upstairs
+    100056: upstairs_ceiling
+    100058: upstairs_room_corridor
+    100060: upstars_wall_corridor
     400000: bath_floor
     400002: bath_wall
     400004: bath_window
@@ -59,6 +63,10 @@ ModelImporter:
     400048: door
     400050: door_open
     400052: door_frames_kitchencorridor
+    400054: upstairs
+    400056: upstairs_ceiling
+    400058: upstairs_room_corridor
+    400060: upstars_wall_corridor
     2300000: bath_floor
     2300002: bath_wall
     2300004: bath_window
@@ -85,6 +93,10 @@ ModelImporter:
     2300046: door
     2300048: door_open
     2300050: door_frames_kitchencorridor
+    2300052: upstairs
+    2300054: upstairs_ceiling
+    2300056: upstairs_room_corridor
+    2300058: upstars_wall_corridor
     3300000: bath_floor
     3300002: bath_wall
     3300004: bath_window
@@ -111,6 +123,10 @@ ModelImporter:
     3300046: door
     3300048: door_open
     3300050: door_frames_kitchencorridor
+    3300052: upstairs
+    3300054: upstairs_ceiling
+    3300056: upstairs_room_corridor
+    3300058: upstars_wall_corridor
     4300000: stairs
     4300002: window_frames
     4300004: door_frames
@@ -137,6 +153,10 @@ ModelImporter:
     4300046: door
     4300048: door_open
     4300050: door_frames_kitchencorridor
+    4300052: upstairs
+    4300054: upstairs_ceiling
+    4300056: upstairs_room_corridor
+    4300058: upstars_wall_corridor
     7400000: Default Take
     9500000: //RootNode
   materials:
