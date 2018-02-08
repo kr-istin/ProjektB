@@ -3067,7 +3067,7 @@ Transform:
   m_LocalScale: {x: 0.7000007, y: 0.20000012, z: 0.10000006}
   m_Children: []
   m_Father: {fileID: 1170167153}
-  m_RootOrder: 25
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &428828613
 BoxCollider:
@@ -13045,7 +13045,7 @@ Prefab:
     - target: {fileID: 2300024, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b9495b1710c1d0e4e9b5584d11f76e00, type: 2}
+      objectReference: {fileID: 2100000, guid: 9be396f1594b5dd48abbfa78a3a8fe6c, type: 2}
     - target: {fileID: 2300040, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -13056,11 +13056,11 @@ Prefab:
       objectReference: {fileID: 2100000, guid: b9495b1710c1d0e4e9b5584d11f76e00, type: 2}
     - target: {fileID: 400044, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13118,6 +13118,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 301a0c1401cc6e74bb45818bd0495c93, type: 2}
+    - target: {fileID: 400040, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300050, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9be396f1594b5dd48abbfa78a3a8fe6c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef4c6d85534bcab48a8ee0a4cd4cc8c7, type: 3}
   m_IsPrefabParent: 0

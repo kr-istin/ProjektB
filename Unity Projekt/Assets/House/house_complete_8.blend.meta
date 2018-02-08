@@ -31,6 +31,7 @@ ModelImporter:
     100046: window_frames
     100048: door
     100050: door_open
+    100052: door_frames_kitchencorridor
     400000: bath_floor
     400002: bath_wall
     400004: bath_window
@@ -57,6 +58,7 @@ ModelImporter:
     400046: window_frames
     400048: door
     400050: door_open
+    400052: door_frames_kitchencorridor
     2300000: bath_floor
     2300002: bath_wall
     2300004: bath_window
@@ -82,6 +84,7 @@ ModelImporter:
     2300044: window_frames
     2300046: door
     2300048: door_open
+    2300050: door_frames_kitchencorridor
     3300000: bath_floor
     3300002: bath_wall
     3300004: bath_window
@@ -107,6 +110,7 @@ ModelImporter:
     3300044: window_frames
     3300046: door
     3300048: door_open
+    3300050: door_frames_kitchencorridor
     4300000: stairs
     4300002: window_frames
     4300004: door_frames
@@ -132,6 +136,7 @@ ModelImporter:
     4300044: outer_wall
     4300046: door
     4300048: door_open
+    4300050: door_frames_kitchencorridor
     7400000: Default Take
     9500000: //RootNode
   materials:
