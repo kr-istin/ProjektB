@@ -2363,9 +2363,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1033777064}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1821691059}
+        m_MethodName: PlayGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2926,6 +2926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8a889609a034984ab7d3db01b26db2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  x: 0
 --- !u!114 &1821691060
 MonoBehaviour:
   m_ObjectHideFlags: 0

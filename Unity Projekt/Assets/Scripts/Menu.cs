@@ -31,8 +31,9 @@ public class Menu : MonoBehaviour {
     public GameObject mainCamera;
 	
 	void Start () {
-	
 		GoOnFunktions();
+		PlayerPrefs.SetInt("Remini", 1);
+		PlayerPrefs.Save ();
 	}
 	
 	void Update () {
@@ -46,6 +47,7 @@ public class Menu : MonoBehaviour {
 	
 	public void Pause()
     {
+			
 		Cursor.lockState = CursorLockMode.None; 
         Cursor.visible = true;
         Time.timeScale = 0;

@@ -4,11 +4,26 @@ using UnityEngine.SceneManagement;
 
 public class Hauptmenü_funktionen : MonoBehaviour {
 	
-	public void PlayGame()
-    {
-        SceneManager.LoadScene("House");
+	public int x;
+	
+	void Start () {
+			
+	}
+	
+	
+	public void PlayGame(){
+		x = PlayerPrefs.GetInt ("Remini");
+		
+		if(x == 0){
+			SceneManager.LoadScene("Reminiscence");
+		}else if(x == 1){
+			SceneManager.LoadScene("House");
+		} else{
+			Debug.Log("Help");
+		}
+	
     }
-
+	
 	public void EndGame(){
 		//Application.Quit();
 		#if UNITY_EDITOR
@@ -16,12 +31,12 @@ public class Hauptmenü_funktionen : MonoBehaviour {
 		#else
 			Application.Quit ();
 		#endif
+	
 	}
 
     public void LoadMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
     }
-	
-	
+		
 }
