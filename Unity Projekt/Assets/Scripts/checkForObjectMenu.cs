@@ -32,6 +32,9 @@ public class checkForObjectMenu : MonoBehaviour {
     public GameObject housepic;
     public GameObject eltacoloco;
 
+	//Esszimmer
+	public GameObject openbook;
+
 
     void FixedUpdate () {
         if (Input.GetMouseButtonDown(0))        // 0 = left mouse button
@@ -111,6 +114,14 @@ public class checkForObjectMenu : MonoBehaviour {
                 {
                     housepic.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
                 }
+
+				/**********************************************
+                *   Esszimmer
+                **********************************************/
+				else if (hit.transform.tag == "storyOpenBook")
+				{
+					openbook.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
+				}
 
             }
         }

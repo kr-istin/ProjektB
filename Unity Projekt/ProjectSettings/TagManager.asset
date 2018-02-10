@@ -18,6 +18,7 @@ TagManager:
   - stairsTrigger
   - ignoreTrigger
   - goUpstairs
+  - storyOpenBook
   layers:
   - Default
   - TransparentFX
