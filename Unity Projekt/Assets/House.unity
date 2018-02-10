@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.7490196, g: 0.7411765, b: 0.7294118, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SkyboxMaterial: {fileID: 2100000, guid: a93aa6df346be624f8c523f2573693ab, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -36,8 +36,8 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.46169478, g: 0.512416, b: 0.5899326, a: 1}
+  m_Sun: {fileID: 497407070}
+  m_IndirectSpecularColor: {r: 0.6016509, g: 0.6415175, b: 0.669832, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -49,7 +49,7 @@ LightmapSettings:
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
     m_TemporalCoherenceThreshold: 1
-    m_EnvironmentLightingMode: 0
+    m_EnvironmentLightingMode: 1
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
@@ -6770,7 +6770,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400010, guid: beab421dd1c29f94fa9ece2be6448c74, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 703633596}
-  m_LocalRotation: {x: 0.07796903, y: -0.7027952, z: -0.077968635, w: 0.70279497}
+  m_LocalRotation: {x: 0.07796902, y: -0.70279515, z: -0.07796863, w: 0.7027949}
   m_LocalPosition: {x: 0.06648332, y: 0.17837203, z: -0.00076628075}
   m_LocalScale: {x: 0.38500005, y: 0.35035, z: 0.408177}
   m_Children: []
@@ -13856,7 +13856,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400020, guid: beab421dd1c29f94fa9ece2be6448c74, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1485927931}
-  m_LocalRotation: {x: 0.07796903, y: -0.7027952, z: -0.077968635, w: 0.70279497}
+  m_LocalRotation: {x: 0.07796902, y: -0.70279515, z: -0.07796863, w: 0.7027949}
   m_LocalPosition: {x: 0.008733321, y: 0.17837203, z: -0.00076628075}
   m_LocalScale: {x: 0.38500005, y: 0.35035, z: 0.408177}
   m_Children: []
@@ -15925,7 +15925,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400030, guid: beab421dd1c29f94fa9ece2be6448c74, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1730108847}
-  m_LocalRotation: {x: 0.07796903, y: -0.7027952, z: -0.077968635, w: 0.70279497}
+  m_LocalRotation: {x: 0.07796902, y: -0.70279515, z: -0.07796863, w: 0.7027949}
   m_LocalPosition: {x: -0.049016677, y: 0.17837203, z: -0.00076628075}
   m_LocalScale: {x: 0.38500005, y: 0.35035, z: 0.408177}
   m_Children: []
