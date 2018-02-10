@@ -29,7 +29,12 @@ public class Menu : MonoBehaviour {
 	public event BeforeButtonClicked beforeButtonClicked;
 
     public GameObject mainCamera;
-
+	
+	void Start () {
+	
+		GoOnFunktions();
+	}
+	
 	void Update () {
 	    if (Input.GetKeyDown(KeyCode.Escape))
         {
