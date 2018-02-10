@@ -19,6 +19,7 @@ TagManager:
   - ignoreTrigger
   - goUpstairs
   - storyOpenBook
+  - storyContract
   layers:
   - Default
   - TransparentFX

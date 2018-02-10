@@ -34,6 +34,7 @@ public class checkForObjectMenu : MonoBehaviour {
 
 	//Esszimmer
 	public GameObject openbook;
+    public GameObject contract;
 
 
     void FixedUpdate () {
@@ -122,6 +123,11 @@ public class checkForObjectMenu : MonoBehaviour {
 				{
 					openbook.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
 				}
+
+                else if (hit.transform.tag == "storyContract")
+                {
+                    contract.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
+                }
 
             }
         }
