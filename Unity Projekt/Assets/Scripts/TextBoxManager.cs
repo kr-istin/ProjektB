@@ -116,13 +116,13 @@ public class TextBoxManager : MonoBehaviour {
 		StartCoroutine(timeCounter());
 		isActive = true;
 		textBox.SetActive (true);
-		audioSource.PlayOneShot (IvyErzaehlt, 0.7f);
+		audioSource.PlayOneShot (IvyErzaehlt, 0.6f);
 	}
 
 
 	IEnumerator timeCounter() 
 	{
-		yield return new WaitForSeconds(7);
+		yield return new WaitForSeconds(6);
 		textBox.SetActive(false);
 		Destroy (gameObject);
 		yield break;
