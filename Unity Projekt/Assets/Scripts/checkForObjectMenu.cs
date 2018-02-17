@@ -18,7 +18,6 @@ public class checkForObjectMenu : MonoBehaviour {
     public GameObject envelopeClosed;
     public GameObject letter;
 	public GameObject bookDepression;
-	public GameObject newspaperClipping;
 	public GameObject bookJoanna;
 
     // Badezimmer
@@ -35,6 +34,7 @@ public class checkForObjectMenu : MonoBehaviour {
 	//Esszimmer
 	public GameObject openbook;
     public GameObject contract;
+	public GameObject newspaperClipping;
 
 
     void FixedUpdate () {
@@ -69,11 +69,6 @@ public class checkForObjectMenu : MonoBehaviour {
 				else if (hit.transform.tag == "storyBook")
 				{
 					bookDepression.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
-				}
-
-				else if (hit.transform.tag == "storyNewspaper_Clipping")
-				{
-					newspaperClipping.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
 				}
 
 				else if (hit.transform.tag == "storyBook_Joanna")
@@ -128,6 +123,11 @@ public class checkForObjectMenu : MonoBehaviour {
                 {
                     contract.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
                 }
+
+				else if (hit.transform.tag == "storyNewspaper_Clipping")
+				{
+					newspaperClipping.GetComponent<Objekt_Aufruf>().OpenObjectMenu();
+				}
 
             }
         }

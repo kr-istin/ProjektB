@@ -14,7 +14,7 @@ public class onClickCounter : MonoBehaviour
 
     void Start()
     {
-        counterArray = new int[12];      // auf Anzahl der Objekte setzen
+        counterArray = new int[13];      // auf Anzahl der Objekte setzen
         upstrairsTrigger.gameObject.SetActive(false);
     }
 
@@ -51,11 +51,6 @@ public class onClickCounter : MonoBehaviour
                 else if (hit.transform.tag == "storyBook")
                 {
                     counterArray[3] = 1;
-                }
-
-                else if (hit.transform.tag == "storyNewspaper_Clipping")
-                {
-                    counterArray[4] = 1;
                 }
 
                 else if (hit.transform.tag == "storyBook_Joanna")
@@ -108,6 +103,16 @@ public class onClickCounter : MonoBehaviour
                 {
                     counterArray[11] = 1;
                 }
+
+				else if (hit.transform.tag == "storyOpenBook")
+				{
+					counterArray[12] = 1;
+				}
+
+				else if (hit.transform.tag == "storyNewspaper_Clipping")
+				{
+					counterArray[4] = 1;
+				}
 
             }
 
