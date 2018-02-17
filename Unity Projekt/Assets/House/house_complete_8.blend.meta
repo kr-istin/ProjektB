@@ -37,6 +37,7 @@ ModelImporter:
     100058: upstairs_room_corridor
     100060: upstars_wall_corridor
     100062: banisters
+    100064: door_frames_001
     400000: bath_floor
     400002: bath_wall
     400004: bath_window
@@ -69,6 +70,7 @@ ModelImporter:
     400058: upstairs_room_corridor
     400060: upstars_wall_corridor
     400062: banisters
+    400064: door_frames_001
     2300000: bath_floor
     2300002: bath_wall
     2300004: bath_window
@@ -100,6 +102,7 @@ ModelImporter:
     2300056: upstairs_room_corridor
     2300058: upstars_wall_corridor
     2300060: banisters
+    2300062: door_frames_001
     3300000: bath_floor
     3300002: bath_wall
     3300004: bath_window
@@ -131,6 +134,7 @@ ModelImporter:
     3300056: upstairs_room_corridor
     3300058: upstars_wall_corridor
     3300060: banisters
+    3300062: door_frames_001
     4300000: stairs
     4300002: window_frames
     4300004: door_frames
@@ -162,6 +166,7 @@ ModelImporter:
     4300056: upstairs_room_corridor
     4300058: upstars_wall_corridor
     4300060: banisters
+    4300062: door_frames_001
     7400000: Default Take
     9500000: //RootNode
   materials:
