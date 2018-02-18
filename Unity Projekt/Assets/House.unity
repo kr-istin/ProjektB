@@ -7458,7 +7458,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400010, guid: beab421dd1c29f94fa9ece2be6448c74, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 703633596}
-  m_LocalRotation: {x: 0.07796903, y: -0.7027952, z: -0.077968635, w: 0.70279497}
+  m_LocalRotation: {x: 0.07796902, y: -0.70279515, z: -0.07796863, w: 0.7027949}
   m_LocalPosition: {x: 0.06648332, y: 0.17837203, z: -0.00076628075}
   m_LocalScale: {x: 0.38500005, y: 0.35035, z: 0.408177}
   m_Children: []
@@ -11676,7 +11676,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -13665,7 +13665,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -13721,7 +13721,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -15261,7 +15261,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400020, guid: beab421dd1c29f94fa9ece2be6448c74, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1485927931}
-  m_LocalRotation: {x: 0.07796903, y: -0.7027952, z: -0.077968635, w: 0.70279497}
+  m_LocalRotation: {x: 0.07796902, y: -0.70279515, z: -0.07796863, w: 0.7027949}
   m_LocalPosition: {x: 0.008733321, y: 0.17837203, z: -0.00076628075}
   m_LocalScale: {x: 0.38500005, y: 0.35035, z: 0.408177}
   m_Children: []
@@ -17662,7 +17662,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400030, guid: beab421dd1c29f94fa9ece2be6448c74, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1730108847}
-  m_LocalRotation: {x: 0.07796903, y: -0.7027952, z: -0.077968635, w: 0.70279497}
+  m_LocalRotation: {x: 0.07796902, y: -0.70279515, z: -0.07796863, w: 0.7027949}
   m_LocalPosition: {x: -0.049016677, y: 0.17837203, z: -0.00076628075}
   m_LocalScale: {x: 0.38500005, y: 0.35035, z: 0.408177}
   m_Children: []
