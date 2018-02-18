@@ -292,9 +292,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Reminiscence ist ein Projekt von Media Systems Studenten an der HAW Hamburg.
-    \n\nStudierende: Amelie B., Isabell K., Kristin R. & Anna S. \nBetreut durch:
-    Prof. Gunther Rehfeld"
+  m_Text: "Reminiscence ... is the act of recollecting \npast experiences or events\n\nReminiscence
+    ist ein Projekt von Media Systems Studenten an der HAW Hamburg. \n\nStudierende:
+    Amelie B., Isabell K., Kristin R. & Anna S. \nBetreut durch: Prof. Gunther Rehfeld"
 --- !u!222 &177511763
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2926,7 +2926,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8a889609a034984ab7d3db01b26db2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 0
 --- !u!114 &1821691060
 MonoBehaviour:
   m_ObjectHideFlags: 0

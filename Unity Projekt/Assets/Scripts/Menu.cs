@@ -32,8 +32,8 @@ public class Menu : MonoBehaviour {
 	
 	void Start () {
 		GoOnFunktions();
-		PlayerPrefs.SetInt("Remini", 1);
-		PlayerPrefs.Save ();
+		//PlayerPrefs.SetInt("Remini", 1);
+		//PlayerPrefs.Save ();
 	}
 	
 	void Update () {
