@@ -12,7 +12,8 @@ public class Hauptmenü_funktionen : MonoBehaviour {
 	
 	
 	public void PlayGame(){
-		x = PlayerPrefs.GetInt ("Remini");
+		SceneManager.LoadScene("House");
+		/*x = PlayerPrefs.GetInt ("Remini");
 		
 		if(x == 0){
 			SceneManager.LoadScene("Reminiscence");
@@ -20,7 +21,7 @@ public class Hauptmenü_funktionen : MonoBehaviour {
 			SceneManager.LoadScene("House");
 		} else{
 			Debug.Log("Help");
-		}
+		}*/
 	
     }
 	
