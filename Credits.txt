@@ -46,6 +46,8 @@ Notizbuch:
 Umzugskarton:
 	Carboard Box by zeMattboy (https://www.blendswap.com/blends/view/87726)
 
+SkyBox: 
+	This is the work of Emil Persson, aka Humus. (http://www.humus.name)
 
 stehender Bilderrahmen:
 	porta retrato photo frame by edson lopes (https://www.cgtrader.com/free-3d-models/architectural/decoration/porta-retrato-photo-frame)
