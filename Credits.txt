@@ -59,7 +59,8 @@ Kinderfoto:
 Bilderrahmen:
 	Paintings free by Webcadabra (https://assetstore.unity.com/packages/3d/props/interior/paintings-free-44185)
 
-
+Pillendose:
+	Medical Bottle and Pills by Tornado Studio (https://www.turbosquid.com/Search/Artists/Tornado-Studio)
 
 
 	
