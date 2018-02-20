@@ -56,6 +56,8 @@ Kinderfoto:
 	Sisters by Stuart Hamilton (https://www.flickr.com/photos/stuandgravy/),
 	bearbeitet und genutzt unter CC BY-NC-SA 2.0 (https://creativecommons.org/licenses/by-nc-sa/2.0/)
 
+Bilderrahmen:
+	Paintings free by Webcadabra (https://assetstore.unity.com/packages/3d/props/interior/paintings-free-44185)
 
 
 
