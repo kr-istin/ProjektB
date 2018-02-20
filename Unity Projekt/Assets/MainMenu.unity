@@ -915,8 +915,8 @@ RectTransform:
   m_Father: {fileID: 843745213}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.8231589}
-  m_AnchorMax: {x: 1, y: 0.96850777}
+  m_AnchorMin: {x: 0, y: 0.78674704}
+  m_AnchorMax: {x: 1, y: 0.96746993}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1868,8 +1868,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 824133030}
   m_HandleRect: {fileID: 824133029}
   m_Direction: 2
-  m_Value: 0.96315193
-  m_Size: 0.14534883
+  m_Value: 0.9602941
+  m_Size: 0.18072288
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2022,8 +2022,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -817}
-  m_SizeDelta: {x: 900, y: 2064}
+  m_AnchoredPosition: {x: 0, y: -626}
+  m_SizeDelta: {x: 900, y: 1660}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1409142677
 MonoBehaviour:
@@ -2058,30 +2058,22 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Familienfoto: \r\n\tFamily portrait for Mothers\u2019 Day by Lee Bennett
-    (https://www.flickr.com/photos/leebennett/),\r\n\tbearbeitet und genutzt unter
-    CC BY-NC-SA 2.0 (https://creativecommons.org/licenses/by-nc-sa/2.0/)\r\n\r\nTeddybear:\r\n\tFree
-    Christmas Presents / Low Poly by BRAiNBOX (https://www.assetstore.unity3d.com/en/#!/content/24356)\r\n\r\nLebensmittel:\r\n\tFood
-    & Grocery Items - Low Poly by OneCoinGames (https://www.assetstore.unity3d.com/en/#!/content/75494)\r\n\r\nK\xFCchenutensilien:\r\n\tKitchen
-    Props Free by Jake Sullivan (https://www.assetstore.unity3d.com/en/#!/content/80208)\r\n\r\nHauseinrichtung:\r\n\tToon
-    Furniture by Elcanetay (https://www.assetstore.unity3d.com/en/#!/content/88740)\r\n\tBig
-    Furniture Pack by Vertex Studio (https://www.assetstore.unity3d.com/en/#!/content/7717)\r\n\tChest
-    of Drawers by Ciconia Studio (https://www.assetstore.unity3d.com/en/#!/content/58835)\r\n\tPBR
-    Retro Cabinet by IL.ranch (https://www.assetstore.unity3d.com/en/#!/content/83329)\r\n\tRound
-    Carpet by Olof Hagelin (https://www.assetstore.unity3d.com/en/#!/content/15171)\r\n\tVintage
-    Television01 by rblackwell (https://www.blendswap.com/blends/view/87888)\r\n\tObjects
-    in a house by TiZiana (https://opengameart.org/content/objects-in-a-house)\r\n\r\nTexturen
-    W\xE4nde, B\xF6den, Umzugskarton, Wandbilder:\r\n\tSketchUp Texture (https://www.sketchuptextureclub.com)\r\n\r\nIcons
-    f\xFCr Taco Flyer:\r\n\tMexico Element Collection by Freepik (https://www.freepik.com/free-vector/mexico-element-collection_1589181.htm)\r\n\r\nCoverfoto
-    von Joannas Buch:\r\n\tby avidaebella (https://www.flickr.com/photos/avidaebella/8204285906/)\r\n\r\nVertrag:
-    \r\n\tTexture of crushed paper - Created by Kues1 - Freepik.com\r\n\thttps://www.freepik.com/free-photo/texture-of-crushed-paper_1037648.htm\r\n\r\nge\xF6ffneter
-    Brief:\r\n\tOld paper texture - Created by Freepik.com\r\n\thttps://www.freepik.com/free-vector/old-paper-texture_711277.htm\r\n\r\nOrdner:\r\n\tArchive,
-    archivist free 3D model by mauro-chile (https://www.cgtrader.com/free-3d-models/household/other/archive-archivist)\r\n\t\r\nNotizbuch:\r\n\tOpen
-    Book by Mor Uniques (https://www.turbosquid.com/FullPreview/Index.cfm/ID/815822)\r\n\r\nUmzugskarton:\r\n\tCarboard
-    Box by zeMattboy (https://www.blendswap.com/blends/view/87726)\r\n\r\nSkyBox:
-    \r\n\tThis is the work of Emil Persson, aka Humus. (http://www.humus.name)\r\n\r\nstehender
-    Bilderrahmen:\r\n\tporta retrato photo frame by edson lopes (https://www.cgtrader.com/free-3d-models/architectural/decoration/porta-retrato-photo-frame)\r\n\r\nKinderfoto:\r\n\tSisters
-    by Stuart Hamilton (https://www.flickr.com/photos/stuandgravy/),\r\n\tbearbeitet
-    und genutzt unter CC BY-NC-SA 2.0 (https://creativecommons.org/licenses/by-nc-sa/2.0/)"
+    \n\tbearbeitet und genutzt unter CC BY-NC-SA 2.0\n\r\nTeddybear:\r\n\tFree Christmas
+    Presents / Low Poly by BRAiNBOX\n\r\nLebensmittel:\r\n\tFood & Grocery Items -
+    Low Poly by OneCoinGames\n\r\nK\xFCchenutensilien:\r\n\tKitchen Props Free by
+    Jake Sullivan\n\nHauseinrichtung:\r\n\tToon Furniture by Elcanetay\n\tBig Furniture
+    Pack by Vertex Studio\n\tChest of Drawers by Ciconia Studio\n\tPBR Retro Cabinet
+    by IL.ranch\n\tRound Carpet by Olof Hagelin\n\tVintage Television01 by rblackwell\n\tObjects
+    in a house by TiZiana\n\r\nTexturen W\xE4nde, B\xF6den, Umzugskarton, Wandbilder:\r\n\tSketchUp
+    Texture\n\r\nIcons f\xFCr Taco Flyer:\r\n\tMexico Element Collection by Freepik\n\r\nCoverfoto
+    von Joannas Buch:\r\n\tby avidaebella\n\r\nVertrag: \r\n\tTexture of crushed paper
+    - Created by Kues1 - Freepik.com\r\r\n\r\nge\xF6ffneter Brief:\r\n\tOld paper
+    texture - Created by Freepik.com\r\n\r\nOrdner:\r\n\tArchive, archivist free 3D
+    model by mauro-chile\n\t\r\nNotizbuch:\r\n\tOpen Book by Mor Uniques\n\nUmzugskarton:\r\n\tCarboard
+    Box by zeMattboy\n\r\nSkyBox: \r\n\tThis is the work of Emil Persson aka Humus\n\r\nstehender
+    Bilderrahmen:\r\n\tporta retrato photo frame by edson lopes\n\r\nKinderfoto:\r\n\tSisters
+    by Stuart Hamilton\n\tbearbeitet und genutzt unter CC BY-NC-SA 2.0\n\nBilderrahmen:\r\n\tPaintings
+    free by Webcadabra"
 --- !u!222 &1409142678
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3023,7 +3015,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20, y: -0.0000038147}
+  m_AnchoredPosition: {x: -20, y: -8}
   m_SizeDelta: {x: 1000, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1946833524
